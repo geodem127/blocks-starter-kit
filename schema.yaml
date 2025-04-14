@@ -108,3 +108,202 @@
         settings:
           defaultValue: "https://8-f48cf3a682-7fthvk.manager.zesty.io/images/sb__hero__image__1.png"
           list: true
+  - description: "A simple contact us form to capture leads from any page"
+    label: "Contact Us Form"
+    name: "contact_us_form"
+    sort: 652
+    listed: true
+    parent: null
+    content: "/content/contact_us_form.yaml"
+    fields:
+      - name: "person_name"
+        label: "Person Name"
+        description: "The name of the primary contact person."
+        datatype: "text"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "Sarah Johnson"
+          list: true
+      - name: "person_photo"
+        label: "Person Photo"
+        description: "A photo of the primary contact person."
+        datatype: "images"
+        sort: 7
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "https://8-f48cf3a682-7fthvk.manager.zesty.io/images/sb__avatar__1.png"
+          list: true
+      - name: "og_image"
+        label: "Meta Image"
+        description: "This field allows you to set an open graph image via the SEO tab. An Open Graph (OG) image is an image that appears on a social media post when a web page is shared."
+        datatype: "images"
+        sort: 10
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: 1
+          list: false
+      - name: "title"
+        label: "Title"
+        description: "The main heading for the contact us form."
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "Get in Touch"
+          list: true
+      - name: "body_text"
+        label: "Body Text"
+        description: "A detailed text providing context or instructions for the form."
+        datatype: "textarea"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "Have questions? Reach out to us, and we'll get back to you shortly."
+          list: true
+      - name: "name"
+        label: "Name"
+        description: "A label for the name input field."
+        datatype: "text"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "Your Name"
+          list: true
+      - name: "person_title"
+        label: "Person Title"
+        description: "The title or role of the primary contact person."
+        datatype: "text"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "Customer Support Specialist"
+          list: true
+      - name: "form_header_text"
+        label: "Form Header Text"
+        description: "A subheading or introduction for the contact form."
+        datatype: "text"
+        sort: 8
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "We're here to help!"
+          list: true
+      - name: "form_cta_button_text"
+        label: "Form CTA Button Text"
+        description: "The text for the call-to-action button on the form."
+        datatype: "text"
+        sort: 9
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "Submit"
+          list: true
+      - name: "person_email"
+        label: "Person Email"
+        description: "The email address of the primary contact person."
+        datatype: "text"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "support@abcinsurance.com"
+          list: true
+
+  - description: "A feature with text on the left and image on the right"
+    label: "Feature Side By Side Image"
+    name: "feature_side_by_side_image"
+    sort: 654
+    listed: true
+    parent: null
+    content: "/content/feature_side_by_side_image.yaml"
+    fields:
+      - name: "feature_intro_text"
+        label: "Feature Intro Text"
+        description: "A short introductory text for the feature section."
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "Discover our unique insurance features"
+          list: true
+      - name: "sub_title"
+        label: "Sub Title"
+        description: "The supporting text providing more detail about the feature."
+        datatype: "textarea"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "Tailored insurance plans to fit your needs and budget, giving you complete peace of mind."
+          list: true
+      - name: "cta_button_url"
+        label: "CTA Button URL"
+        description: "The URL the call-to-action button links to."
+        datatype: "link"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "https://abcinsurance.com/learn-features"
+          list: true
+      - name: "og_image"
+        label: "Meta Image"
+        description: "This field allows you to set an open graph image via the SEO tab. An Open Graph (OG) image is an image that appears on a social media post when a web page is shared."
+        datatype: "images"
+        sort: 8
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: 1
+          list: false
+      - name: "title"
+        label: "Title"
+        description: "The main heading for the feature section."
+        datatype: "text"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "Comprehensive Coverage Plans"
+          list: true
+      - name: "feature_intro_link"
+        label: "Feature Intro Link"
+        description: "The URL linked to the introductory feature text."
+        datatype: "link"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "https://abcinsurance.com/features"
+          list: true
+      - name: "hero_image"
+        label: "Hero Image"
+        description: "The image displayed alongside the feature section."
+        datatype: "images"
+        sort: 7
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "https://8-f48cf3a682-7fthvk.manager.zesty.io/images/sb__hero__image__2.png"
+          list: true
+      - name: "cta_button_text"
+        label: "CTA Button Text"
+        description: "The text for the call-to-action button in the feature section."
+        datatype: "text"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "Learn About Features"
+          list: true
