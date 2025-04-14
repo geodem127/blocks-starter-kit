@@ -1,0 +1,110 @@
+
+  - description: "A hero with text and CTA buttons on the top and an image below"
+    label: "Hero Image Below"
+    name: "hero_image_below"
+    sort: 649
+    listed: true
+    parent: null
+    content: "/content/hero_image_below.yaml"
+    fields:
+      - name: "top_cta_button_url"
+        label: "Top CTA Button URL"
+        description: "The URL the top call-to-action button links to."
+        datatype: "link"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "https://abcinsurance.com/get-started"
+          list: true
+      - name: "sub_title"
+        label: "Sub Title"
+        description: "The supporting text displayed below the title in the hero section."
+        datatype: "textarea"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "Affordable plans tailored to your needs."
+          list: true
+      - name: "cta_button_1_url"
+        label: "CTA Button 1 URL"
+        description: "The URL the first call-to-action button links to."
+        datatype: "link"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "https://abcinsurance.com/get-a-quote"
+          list: true
+      - name: "cta_button_1_text"
+        label: "CTA Button 1 Text"
+        description: "The text for the first call-to-action button"
+        datatype: "text"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "Get a Quote."
+          list: true
+      - name: "og_image"
+        label: "Meta Image"
+        description: "This field allows you to set an open graph image via the SEO tab. An Open Graph (OG) image is an image that appears on a social media post when a web page is shared."
+        datatype: "images"
+        sort: 10
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: 1
+          list: false
+      - name: "title"
+        label: "Title"
+        description: "The primary heading displayed in the hero section."
+        datatype: "text"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "Secure Your Future with ABC Insurance"
+          list: true
+      - name: "top_cta_button_text"
+        label: "Top CTA Button Text"
+        description: "The text for the top call-to-action button."
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "Get Started"
+          list: true
+      - name: "cta_button_2_text"
+        label: "CTA Button 2 Text"
+        description: "The text for the second call-to-action button."
+        datatype: "text"
+        sort: 7
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "Learn More"
+          list: true
+      - name: "cta_button_2_url"
+        label: "CTA Button 2 URL"
+        description: "The URL the second call-to-action button links to."
+        datatype: "link"
+        sort: 8
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "https://abcinsurance.com/learn-more"
+          list: true
+      - name: "hero_image"
+        label: "Hero Image"
+        description: "The image displayed in the hero section."
+        datatype: "images"
+        sort: 9
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "https://8-f48cf3a682-7fthvk.manager.zesty.io/images/sb__hero__image__1.png"
+          list: true
