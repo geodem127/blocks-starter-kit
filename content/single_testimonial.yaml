@@ -1,8 +1,8 @@
 
-  - id: "86d9-ade2-7f29"
+  - id: "c226-7ded-33fa"
     web:
       metaDescription: ""
-      metaTitle: "001"
+      metaTitle: null
       metaLinkText: null
       metaKeywords: null
       pathPart: null
@@ -11,17 +11,17 @@
       canonicalTagMode: 1
       canonicalQueryParamWhitelist: null
       canonicalTagCustomValue: null
-      parent: "/"
+      type: "block"
     meta:
-      sort: 674
+      sort: 11
       listed: true
-      createdByUserZUID: "5-dc93cce5e1-zh4m49"
+      createdByUserZUID: "5-90d9f0bdbd-0jcjz2"
     data:
-      company_logo: "https://8-f48cf3a682-7fthvk.manager.zesty.io/images/sb__company__logo__1.png"
+      company_logo: "https://8-acd5dda19b-2fn6nn.manager.zesty.io/images/sb__company__logo__1.png"
       company_name: "ABC Insurance"
       job_title: "Financial Advisor"
-      og_image: "https://storage.googleapis.com/zesty-prod-instance-screenshots/8xbq19z1-dev.webengine.zesty.io!-!block!single_testimonial.html!variant=7-d4c08f92b9-mjqf32&version=2&_bypassError=true_1280_720.png"
-      person_image: "https://8-f48cf3a682-7fthvk.manager.zesty.io/images/sb__person__image__1.png"
+      og_image: "https://storage.googleapis.com/zesty-prod-instance-screenshots/4900nj2j-dev.webengine.zesty.io!-!block!single_testimonial.html!variant=7-eeb6e59d9c-d3j3k4&version=2&_bypassError=true_1280_720.png"
+      person_image: "https://8-acd5dda19b-2fn6nn.manager.zesty.io/images/sb__person__image__1.png"
       person_name: "John Doe"
       position: "Senior Manager"
       quote: "ABC Insurance has transformed my life with its reliable and affordable plans."

@@ -1,17 +1,1 @@
-# File Extensions
-*.sublime-*
-*.log
-*.lock
-*.css.json
-
-# secrets
-*.env*
-*.enc
-
-/build
-*dist/
-*node_modules/
-
-.vscode
 .DS_Store
-.idea

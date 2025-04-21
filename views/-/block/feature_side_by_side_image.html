@@ -1,49 +1,77 @@
-<link href="https://block.codescandy.com/assets/css/theme.min.css" rel="stylesheet" />
-<section class="my-xl-7 py-5">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-6 col-md-12 col-12 mb-md-3 mb-lg-0">
-				<div>
-					<a href="{{this.feature_intro_link}}" class="text-primary text-uppercase ls-md fw-semibold">
-						{{this.feature_intro_text}}
-					</a>
-					<div class="mb-5 mt-4">
-						<h2 class="mb-3">{{this.title}}</h2>
-						<p class="mb-0 lead">
-							{{this.sub_title}}
-						</p>
-					</div>
+<template id="feature-highlight-template">
+  <link href="https://block.codescandy.com/assets/css/theme.min.css" rel="stylesheet" />
+  <section class="my-xl-7 py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-12 col-12 mb-md-3 mb-lg-0">
+          <div>
+            <a data-ref="introLink" class="text-primary text-uppercase ls-md fw-semibold"></a>
+            <div class="mb-5 mt-4">
+              <h2 class="mb-3" data-ref="title"></h2>
+              <p class="mb-0 lead" data-ref="subTitle"></p>
+            </div>
+            <a data-ref="ctaButton" class="icon-link icon-link-hover">
+              <span data-ref="ctaText"></span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                fill="currentColor"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16">
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-0 col-md-12 col-12">
+          <div class="position-relative rellax" data-rellax-percentage="1" data-rellax-speed="0.8" data-disable-parallax-down="md">
+            <figure>
+              <img data-ref="heroImage" alt="landing" class="img-fluid rounded-4" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
 
-					<a href="{{this.cta_button_url}}" class="icon-link icon-link-hover">
-						{{this.cta_button_text}}
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="14"
-							height="14"
-							fill="currentColor"
-							class="bi bi-arrow-right"
-							viewBox="0 0 16 16">
-							<path
-								fill-rule="evenodd"
-								d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-						</svg>
-					</a>
-				</div>
-			</div>
-			<div class="col-lg-6 offset-lg-0 col-md-12 col-12">
-				<div
-					class="position-relative rellax"
-					data-rellax-percentage="1"
-					data-rellax-speed="0.8"
-					data-disable-parallax-down="md">
-					<figure>
-						<img
-							src="{{this.hero_image.getImage()}}"
-							alt="landing"
-							class="img-fluid rounded-4" />
-					</figure>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+<script>
+  class FeatureSideBySideImage extends HTMLElement {
+    constructor() {
+      super();
+    }
+
+    connectedCallback() {
+      const template = document.getElementById('feature-highlight-template');
+      const content = template.content.cloneNode(true);
+
+      content.querySelector('[data-ref="introLink"]').href = this.getAttribute('feature_intro_link');
+      content.querySelector('[data-ref="introLink"]').textContent = this.getAttribute('feature_intro_text');
+
+      content.querySelector('[data-ref="title"]').textContent = this.getAttribute('title');
+      content.querySelector('[data-ref="subTitle"]').textContent = this.getAttribute('sub_title');
+
+      content.querySelector('[data-ref="ctaButton"]').href = this.getAttribute('cta_button_url');
+      content.querySelector('[data-ref="ctaText"]').textContent = this.getAttribute('cta_button_text');
+
+      content.querySelector('[data-ref="heroImage"]').src = this.getAttribute('hero_image');
+
+      this.appendChild(content);
+    }
+  }
+
+  customElements.define('feature-side-by-side-image', FeatureSideBySideImage);
+</script>
+
+<feature-side-by-side-image
+  title="{{this.title}}"
+  cta_button_url="{{this.cta_button_url}}"
+  feature_intro_text="{{this.feature_intro_text}}"
+  hero_image="{{this.hero_image.getImage()}}"
+  feature_intro_link="{{this.feature_intro_link}}"
+  cta_button_text="{{this.cta_button_text}}"
+  sub_title="{{this.sub_title}}"
+></feature-side-by-side-image>
