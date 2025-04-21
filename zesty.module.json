@@ -1,4 +1,7 @@
 {
-    "name": "starter-blocks",
-    "schema": "schema.yaml"
+    "name": "zesty.pw",
+    "schema": "schema.yaml",
+    "settings": "settings.yaml",
+    "head-tags": "head-tags.yaml",
+    "style-variables": "style-variables.yaml"
 }

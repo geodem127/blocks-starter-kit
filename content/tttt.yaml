@@ -1,0 +1,21 @@
+
+  - id: "31b5-5b3c-e90f"
+    web:
+      metaDescription: ""
+      metaTitle: "Test GGG"
+      metaLinkText: "tttt"
+      metaKeywords: null
+      pathPart: "tttt"
+      path: "/ggg/tttt/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/ggg/"
+    meta:
+      sort: 638
+      listed: true
+      createdByUserZUID: "5-dc93cce5e1-zh4m49"
+    data:
+      test: "Test GGG"
+      test_image: "https://8xbq19z1.media.zestyio.com/national-cancer-institute-KZaJ8SLzsmw-unsplash.B1Wp0vu6tO.jpg"

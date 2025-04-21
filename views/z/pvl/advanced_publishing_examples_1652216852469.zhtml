@@ -1,0 +1,3 @@
+<div className={styles.pvlRoot}>
+	<h1 class="pvlHeader">{{advanced_publishing_examples_1652216852469.first().title}}</h1>
+</div>

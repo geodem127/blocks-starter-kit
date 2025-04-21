@@ -1,0 +1,19 @@
+
+  - id: "c2b8-cd2e-e2e8"
+    web:
+      metaDescription: ""
+      metaTitle: "This is the headless test page"
+      metaLinkText: "This is the headless test page"
+      metaKeywords: null
+      pathPart: "headless-test-page"
+      path: "/page/otherpage/all-field-types/sdfgdsfgsdfg/test-for-multi-language/title/test/headless-test-page/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/page/otherpage/all-field-types/sdfgdsfgsdfg/test-for-multi-language/title/test/"
+    meta:
+      sort: 8
+      listed: true
+    data:
+      text_field: "This is the headless test page by Simon P1"

@@ -1,0 +1,43 @@
+
+  - id: "90b0-15d9-199b"
+    web:
+      metaDescription: "bugtestt"
+      metaTitle: "bugtestttt"
+      metaLinkText: "bugtestttt"
+      metaKeywords: null
+      pathPart: "bugtestttt"
+      path: "/bugtestttt/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 33
+      listed: true
+      createdByUserZUID: "5-84d1e6d4ae-s3m974"
+    data:
+      haha: "2024-02-24"
+      mytext: "bugtestttt"
+      mywys: "<p>bugtestt</p>"
+  - id: "2775-9b19-5ac8"
+    web:
+      metaDescription: ""
+      metaTitle: "bugtest"
+      metaLinkText: "bugtest"
+      metaKeywords: null
+      pathPart: "bugtest"
+      path: "/bugtest/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 32
+      listed: true
+      createdByUserZUID: "5-84d1e6d4ae-s3m974"
+    data:
+      haha: null
+      mytext: null
+      mywys: null

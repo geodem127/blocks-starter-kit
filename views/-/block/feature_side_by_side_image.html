@@ -1,49 +1,57 @@
-<link href="https://block.codescandy.com/assets/css/theme.min.css" rel="stylesheet" />
-<section class="my-xl-7 py-5">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-6 col-md-12 col-12 mb-md-3 mb-lg-0">
-				<div>
-					<a href="{{this.feature_intro_link}}" class="text-primary text-uppercase ls-md fw-semibold">
-						{{this.feature_intro_text}}
-					</a>
-					<div class="mb-5 mt-4">
-						<h2 class="mb-3">{{this.title}}</h2>
-						<p class="mb-0 lead">
-							{{this.sub_title}}
-						</p>
-					</div>
-
-					<a href="{{this.cta_button_url}}" class="icon-link icon-link-hover">
-						{{this.cta_button_text}}
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="14"
-							height="14"
-							fill="currentColor"
-							class="bi bi-arrow-right"
-							viewBox="0 0 16 16">
-							<path
-								fill-rule="evenodd"
-								d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-						</svg>
-					</a>
-				</div>
-			</div>
-			<div class="col-lg-6 offset-lg-0 col-md-12 col-12">
-				<div
-					class="position-relative rellax"
-					data-rellax-percentage="1"
-					data-rellax-speed="0.8"
-					data-disable-parallax-down="md">
-					<figure>
-						<img
-							src="{{this.hero_image.getImage()}}"
-							alt="landing"
-							class="img-fluid rounded-4" />
-					</figure>
-				</div>
-			</div>
+<div class="template-alert">
+	<style>
+	.template-alert {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		background-color: #10182880;
+	}
+	.alert-box {
+		box-sizing: border-box;
+		background-color: #FEF0C7;
+		border-radius: 8px;
+		padding: 32px;
+		width: 520px;
+		font-family: Arial, sans-serif;
+	}
+		.alert-icon {
+		color: #ff9f00;
+		font-size: 48px;
+		margin-bottom: 16px;
+	}
+	.alert-title {
+		font-weight: bold;
+		color: #B54708;
+		font-size: 32px;
+		margin-bottom: 8px;
+		line-height: 38px;
+	}
+	.alert-description {
+		color: #B54708;
+		font-size: 32px;
+		line-height: 48px;
+		margin-bottom: 20px;
+	}
+	.button {
+		display: inline-block;
+		background-color: #F79009;
+		color: white;
+		border: none;
+		border-radius: 8px;
+		padding: 10px 10px;
+		cursor: pointer;
+		font-size: 24px;
+		text-decoration: none;
+		line-height: 32px;
+	}
+	</style>
+	<div class="alert-box">
+		<div class="alert-icon">⚠️</div>
+		<div class="alert-title">Template File is empty</div>
+		<div class="alert-description">
+			Please add in the code for the block via the Code App.
 		</div>
-	</div>
-</section>
+		<a href="https://8-f48cf3a682-7fthvk.manager.zesty.io/code/file/views/11-90a5f3f0c0-hwtrqq" target="_blank" class="button"><> Edit Template File</a>
+  </div>
+</div>

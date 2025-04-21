@@ -1,0 +1,39 @@
+
+  - id: "c8a0-166f-217b"
+    web:
+      metaDescription: ""
+      metaTitle: "FooBar Content 2"
+      metaLinkText: "FooBar Content 2"
+      metaKeywords: null
+      pathPart: "foobar-content-2"
+      path: "/foobar-content-2/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 469
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      title: "FooBar Content 2"
+  - id: "d1e1-a87d-3b57"
+    web:
+      metaDescription: ""
+      metaTitle: "FooBar Content 1"
+      metaLinkText: "FooBar Content 1"
+      metaKeywords: null
+      pathPart: "foobar-content-1"
+      path: "/foobar-content-1/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 468
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      title: "FooBar Content 1"

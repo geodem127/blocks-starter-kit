@@ -1,0 +1,41 @@
+
+  - id: "7a60-da82-e451"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 348
+      listed: true
+      createdByUserZUID: "5-44ccc74-tr1vmph"
+    data:
+      active: null
+      id: "a728499e-bb98-4ca0-bc49-443e42512906"
+  - id: "ce28-d931-3112"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 306
+      listed: true
+      createdByUserZUID: "5-44ccc74-tr1vmph"
+    data:
+      active: 1
+      id: "0d0a60d6-a733-4f0e-a1d0-689563bcd0e8"

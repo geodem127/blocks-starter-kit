@@ -1,0 +1,38 @@
+
+  - id: "0d3c-aed0-4f49"
+    web:
+      metaDescription: ""
+      metaTitle: "New Schema All Fields"
+      metaLinkText: "New Schema All Fields"
+      metaKeywords: null
+      pathPart: "new-schema-all-fields"
+      path: "/new-schema-all-fields/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 19
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      article_writer: null
+      color: null
+      currency: null
+      date: null
+      date_time: null
+      dropdown: null
+      external_url: null
+      internal_link: null
+      markdown: null
+      media: null
+      number: null
+      one_to_many: null
+      one_to_one: null
+      sort: null
+      text: "aaaaaaaaaa"
+      textarea: "hello@zesty.io"
+      toggle: null
+      uuid: "7944bd65-df49-484b-a634-68ad73fa3bb1"
+      wysiwyg: null

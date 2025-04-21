@@ -1,0 +1,21 @@
+
+  - id: "ed59-2bdb-afd8"
+    web:
+      metaDescription: ""
+      metaTitle: "hero test"
+      metaLinkText: "hero test"
+      metaKeywords: null
+      pathPart: "hero-test"
+      path: "/hero-test/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 613
+      listed: true
+      createdByUserZUID: "5-98ecbda2ce-wl594p"
+    data:
+      bg: null
+      title: null

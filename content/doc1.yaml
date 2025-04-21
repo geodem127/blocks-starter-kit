@@ -1,0 +1,21 @@
+
+  - id: "599d-419b-08ab"
+    web:
+      metaDescription: ""
+      metaTitle: "doc1"
+      metaLinkText: "doc1"
+      metaKeywords: null
+      pathPart: "doc1"
+      path: "/docs/doc1/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/docs/"
+    meta:
+      sort: 466
+      listed: true
+    data:
+      body: "ee"
+      description: "ee"
+      title: "ee"

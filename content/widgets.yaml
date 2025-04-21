@@ -1,0 +1,76 @@
+
+  - id: "3315-ab6f-08da"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 99
+      listed: true
+      createdByUserZUID: "5-44ccc74-tr1vmph"
+    data:
+      data: "facebook.com,plus.url.google.com,twitter.com,yelp.com"
+      direction: null
+      header: "Analytics"
+      position: 1
+      set_zuid: null
+      type: "analytics"
+      widget_size: "full"
+  - id: "9c43-7496-0029"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 99
+      listed: true
+      createdByUserZUID: "5-44ccc74-tr1vmph"
+    data:
+      data: "https://blog.zesty.io/release_log-feed.rss"
+      direction: "ASC"
+      header: "Zesty.io Update Log"
+      position: 3
+      set_zuid: null
+      type: "feed"
+      widget_size: "half"
+  - id: "b9d6-3dbb-3129"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 99
+      listed: true
+      createdByUserZUID: "5-44ccc74-tr1vmph"
+    data:
+      data: "z:history"
+      direction: "DESC"
+      header: "Recently Updated"
+      position: 2
+      set_zuid: null
+      type: "set_view"
+      widget_size: "half"

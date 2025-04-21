@@ -1,0 +1,20 @@
+
+  - id: "5d3b-e211-d4dd"
+    web:
+      metaDescription: ""
+      metaTitle: "test for multi language"
+      metaLinkText: "test for multi language"
+      metaKeywords: null
+      pathPart: "test-for-multi-language"
+      path: "/page/otherpage/all-field-types/sdfgdsfgsdfg/test-for-multi-language/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/page/otherpage/all-field-types/sdfgdsfgsdfg/"
+    meta:
+      sort: 3
+      listed: true
+    data:
+      date: "2020-01-05"
+      text_field_: "hello"

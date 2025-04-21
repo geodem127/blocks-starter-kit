@@ -1,0 +1,19 @@
+
+  - id: "a6aa-0ca0-d90e"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: "Food recipe now"
+      metaKeywords: null
+      pathPart: "food-recipe-now"
+      path: "/food-recipe-now/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 23
+      listed: true
+    data:
+      name: "testfdffff"

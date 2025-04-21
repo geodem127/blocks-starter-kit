@@ -1,0 +1,82 @@
+
+  - id: "f4d7-31c7-d324"
+    web:
+      metaDescription: ""
+      metaTitle: "hey there"
+      metaLinkText: "hey there"
+      metaKeywords: null
+      pathPart: "hey-there"
+      path: "/hey-there/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 368
+      listed: true
+      createdByUserZUID: "5-8ed0a5a997-nqxdr1"
+    data:
+      image_nest_lock: "https://8xbq19z1.media.zestyio.com/pexels-quang-nguyen-vinh--.rkNCZOPkO.jpg"
+      nested_one: "hey there"
+      new_one: null
+  - id: "eff9-b8c0-4ef6"
+    web:
+      metaDescription: ""
+      metaTitle: "sdsdsdsd"
+      metaLinkText: "sdsdsdsd"
+      metaKeywords: null
+      pathPart: "ypoypypy"
+      path: "/ypoypypy/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 369
+      listed: true
+    data:
+      image_nest_lock: "https://8xbq19z1.media.zestyio.com/pexels-pixabay-164024.SymXR-OwJO.jpg"
+      nested_one: "yoyoyo"
+      new_one: null
+  - id: "5050-e52c-85e6"
+    web:
+      metaDescription: ""
+      metaTitle: "nest amigo"
+      metaLinkText: "nest amigo"
+      metaKeywords: null
+      pathPart: "nest-amigo"
+      path: "/1st-place-rfl51b/nest-amigo/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/1st-place-rfl51b/"
+    meta:
+      sort: 367
+      listed: true
+    data:
+      image_nest_lock: "https://8xbq19z1.media.zestyio.com/pexels-hernan-pauccara-1210273.SyW70ZODJ_.jpg"
+      nested_one: "nest amigo"
+      new_one: null
+  - id: "02a9-6459-1e66"
+    web:
+      metaDescription: ""
+      metaTitle: "yobob"
+      metaLinkText: "yobob"
+      metaKeywords: null
+      pathPart: "yobob"
+      path: "/1st-place-rfl51b/yobob/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/1st-place-rfl51b/"
+    meta:
+      sort: 371
+      listed: true
+    data:
+      image_nest_lock: "https://8xbq19z1.media.zestyio.com/beachPlease.jpg"
+      nested_one: "yobob"
+      new_one: null

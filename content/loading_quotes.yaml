@@ -1,0 +1,101 @@
+
+  - id: "15fa-2374-3ea7"
+    web:
+      metaDescription: "People don't buy what you do; they buy why you do it."
+      metaTitle: "Simon Sinek"
+      metaLinkText: "Simon Sinek"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 648
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      author: "Simon Sinek"
+      quote: "People don't buy what you do; they buy why you do it."
+  - id: "c68b-16d1-30d4"
+    web:
+      metaDescription: "The best marketing doesn't feel like marketing."
+      metaTitle: "Tom Fishburne"
+      metaLinkText: "Tom Fishburne"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 647
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      author: "Tom Fishburne"
+      quote: "The best marketing doesn't feel like marketing."
+  - id: "1820-5db8-5bcf"
+    web:
+      metaDescription: "Your brand is a story unfolding across all customer touchpoints."
+      metaTitle: "Jonah Sachs"
+      metaLinkText: "Jonah Sachs"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 646
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      author: "Jonah Sachs"
+      quote: "Your brand is a story unfolding across all customer touchpoints."
+  - id: "1873-2d25-7bf4"
+    web:
+      metaDescription: "Marketing is no longer about the stuff that you make, but about the stories you tell."
+      metaTitle: "Seth Godin"
+      metaLinkText: "Seth Godin"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 645
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      author: "Seth Godin"
+      quote: "Marketing is no longer about the stuff that you make, but about the stories you tell."
+  - id: "8d45-dee5-b4ad"
+    web:
+      metaDescription: "Content is king."
+      metaTitle: "Bill Gates"
+      metaLinkText: "Bill Gates"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 644
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      author: "Bill Gates"
+      quote: "Content is king."

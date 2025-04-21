@@ -1,0 +1,20 @@
+
+  - id: "b9c3-f8f9-981e"
+    web:
+      metaDescription: ""
+      metaTitle: "test"
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 626
+      listed: true
+      createdByUserZUID: "5-84d1e6d4ae-s3m974"
+    data:
+      og_image: "https://storage.googleapis.com/zesty-prod-instance-screenshots/8xbq19z1-dev.webengine.zesty.io!-!block!test242.html!variant=7-ce80d4bec5-plj1nx&version=2&zpw=test123&_bypassError=true_1280_720.png"

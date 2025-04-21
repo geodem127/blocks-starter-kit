@@ -1,0 +1,133 @@
+
+  - id: "69fc-108b-d92d"
+    web:
+      metaDescription: ""
+      metaTitle: "new item"
+      metaLinkText: "new item"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 388
+      listed: true
+      createdByUserZUID: "5-84d1e6d4ae-s3m974"
+    data:
+      input_type: null
+      is_required: null
+      label: "new item"
+      sort: 1
+  - id: "d3b8-2562-77a6"
+    web:
+      metaDescription: ""
+      metaTitle: "justtesting"
+      metaLinkText: "justtesting"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 379
+      listed: true
+      createdByUserZUID: "5-c2c892c686-2zhbl4"
+    data:
+      input_type: null
+      is_required: null
+      label: "justtesting"
+      sort: 1
+  - id: "0ef3-42d1-ae2d"
+    web:
+      metaDescription: ""
+      metaTitle: "Test"
+      metaLinkText: "Test"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 374
+      listed: true
+      createdByUserZUID: "5-c2c892c686-2zhbl4"
+    data:
+      input_type: null
+      is_required: null
+      label: "Test"
+      sort: 1
+  - id: "cf8a-5170-eea9"
+    web:
+      metaDescription: ""
+      metaTitle: "Page"
+      metaLinkText: "Page"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 1
+      listed: true
+      createdByUserZUID: "5-44ccc74-sn4pc4st3r"
+    data:
+      input_type: "text"
+      is_required: "required"
+      label: "Full Name"
+      sort: 1
+  - id: "83ea-0363-bd08"
+    web:
+      metaDescription: ""
+      metaTitle: "Page"
+      metaLinkText: "Page"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 2
+      listed: true
+      createdByUserZUID: "5-44ccc74-sn4pc4st3r"
+    data:
+      input_type: "text"
+      is_required: "required"
+      label: "Email"
+      sort: 2
+  - id: "31b5-c087-6018"
+    web:
+      metaDescription: ""
+      metaTitle: "Page"
+      metaLinkText: "Page"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 3
+      listed: true
+      createdByUserZUID: "5-44ccc74-sn4pc4st3r"
+    data:
+      input_type: "text"
+      is_required: "optional"
+      label: "Phone"
+      sort: 3

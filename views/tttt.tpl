@@ -1,0 +1,1 @@
+<img src="{{this.test_image.getImage()}}" alt="image"/>

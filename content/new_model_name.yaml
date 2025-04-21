@@ -1,0 +1,19 @@
+
+  - id: "0cd8-14b6-13f4"
+    web:
+      metaDescription: ""
+      metaTitle: "New Model Name"
+      metaLinkText: "New Model Name"
+      metaKeywords: null
+      pathPart: "new-model-name"
+      path: "/new-model-name/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 16
+      listed: true
+      createdByUserZUID: "5-57801f6-3cj46d"
+    data: {}

@@ -1,0 +1,24 @@
+
+  - id: "7742-a5e3-0133"
+    web:
+      metaDescription: ""
+      metaTitle: "zesty.pw"
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 99
+      listed: true
+    data:
+      footer_text: "zesty.pw"
+      logo: "https://b7ac6877d8f0f6887d1a-06eda14bbaf6686f6c61dc2b031a183c.ssl.cf2.rackcdn.com/or-zesty-io-brand.png"
+      node-sdk_createItem_1718170376140: null
+      node-sdk_createItem_1718170459540: null
+      node-sdk_createItem_1718238230897: null
+      site_name: "zesty.pw"

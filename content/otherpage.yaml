@@ -1,0 +1,49 @@
+
+  - id: "acff-150b-b58b"
+    web:
+      metaDescription: "test"
+      metaTitle: "otherpage"
+      metaLinkText: "otherpage"
+      metaKeywords: "test, test"
+      pathPart: "otherpage"
+      path: "/page/otherpage/"
+      sitemapPriority: -1
+      canonicalTagMode: 2
+      canonicalQueryParamWhitelist: "this, is, query, params"
+      canonicalTagCustomValue: null
+      parent: "/page/"
+    meta:
+      sort: 1
+      listed: true
+    data:
+      2x_images: "https://8xbq19z1.media.zestyio.com/San-Diego-At-Night.png,https://8xbq19z1.media.zestyio.com/header.jpg,https://8xbq19z1.media.zestyio.com/coffee-coffee-cup-porcelain-coffee-beans-144253.jpeg"
+      multiple_images: "hellow world, foobar"
+      test: null
+      test_content: "<p><iframe width=\"500px\" height=\"600px\" id=\"Br0cSBsA_cU\" src=\"https://instagram.com/p/Br0cSBsA_cU/embed/captioned\" data-service=\"Instagram\" frameborder=\"0\"></iframe></p>\n<p>test test</p>"
+      test_fix_2711: 1
+      title: "Other Page - Other Pagesffffffrrtryrtysrgdsgsdfsdeeeexxxxasdasd"
+      uiser_id: "89451d81-cd69-4e1c-ad8f-8d8da91e2e8d"
+  - id: "1f72-b04f-95d8"
+    web:
+      metaDescription: ""
+      metaTitle: "testing me"
+      metaLinkText: "testing me"
+      metaKeywords: null
+      pathPart: "testing-me"
+      path: "/docs2/testing-me/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/docs2/"
+    meta:
+      sort: 474
+      listed: true
+    data:
+      2x_images: null
+      multiple_images: null
+      test: null
+      test_content: null
+      test_fix_2711: null
+      title: "testing me"
+      uiser_id: "b7bedeea-6a35-47fa-adac-4c5bc38fa78d"

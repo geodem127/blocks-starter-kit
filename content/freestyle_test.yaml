@@ -1,0 +1,20 @@
+
+  - id: "d385-abbd-e4fa"
+    web:
+      metaDescription: ""
+      metaTitle: "freestyle test"
+      metaLinkText: "freestyle test"
+      metaKeywords: null
+      pathPart: "freestyle-test"
+      path: "/freestyle-test/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 635
+      listed: true
+      createdByUserZUID: "5-84d1e6d4ae-s3m974"
+    data:
+      test_field: "test"

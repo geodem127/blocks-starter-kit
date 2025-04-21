@@ -1,0 +1,19 @@
+
+  - id: "be89-d9b4-f8e3"
+    web:
+      metaDescription: ""
+      metaTitle: "test headless model"
+      metaLinkText: "test headless model"
+      metaKeywords: null
+      pathPart: "test_headless_model"
+      path: "/test_headless_model/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 9
+      listed: true
+      createdByUserZUID: "5-98a6a4-wz0tt8"
+    data: {}

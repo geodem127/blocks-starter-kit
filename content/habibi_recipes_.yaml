@@ -1,0 +1,46 @@
+
+  - id: "6bfd-f47d-0704"
+    web:
+      metaDescription: ""
+      metaTitle: "Stuarts Recipe"
+      metaLinkText: "Stuarts Recipe"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 533
+      listed: true
+      createdByUserZUID: "5-44ccc74-tr1vmph"
+    data:
+      author: null
+      ef_issue_number: null
+      fun_fun_functions__hel: null
+      image: null
+      recipe_title: "Stuarts Recipe"
+  - id: "96f4-9488-4364"
+    web:
+      metaDescription: ""
+      metaTitle: "Persian Food"
+      metaLinkText: "Persian Food"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 386
+      listed: true
+    data:
+      author: "7456-c6a5-6799"
+      ef_issue_number: "640c-0f82-9976"
+      fun_fun_functions__hel: null
+      image: "https://8xbq19z1.media.zestyio.com/pexels-hernan-pauccara-1210273.SyW70ZODJ_.jpg"
+      recipe_title: "Persian Food"

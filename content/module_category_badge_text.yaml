@@ -1,0 +1,39 @@
+
+  - id: "8655-3ec2-6b0f"
+    web:
+      metaDescription: ""
+      metaTitle: "Travel"
+      metaLinkText: "Travel"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 433
+      listed: true
+      createdByUserZUID: "5-84d1e6d4ae-s3m974"
+    data:
+      badge_content: "Travel"
+  - id: "1066-2e57-455a"
+    web:
+      metaDescription: ""
+      metaTitle: "Health and fitness"
+      metaLinkText: "Health and fitness"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 432
+      listed: true
+      createdByUserZUID: "5-84d1e6d4ae-s3m974"
+    data:
+      badge_content: "Health and fitness"

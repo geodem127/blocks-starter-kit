@@ -1,0 +1,39 @@
+
+  - id: "8ec1-0f61-2004"
+    web:
+      metaDescription: ""
+      metaTitle: "undefinedPup's Up!"
+      metaLinkText: "undefinedPup's Up!"
+      metaKeywords: null
+      pathPart: "undefinedpups-up"
+      path: "/undefinedpups-up/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 472
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      title: "undefinedPup's Up!"
+  - id: "1e8e-d704-879f"
+    web:
+      metaDescription: ""
+      metaTitle: "lorem ispum sit dolor"
+      metaLinkText: "lorem ispum sit dolor"
+      metaKeywords: null
+      pathPart: "lorem-ispum-sit-dolor"
+      path: "/lorem-ispum-sit-dolor/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 471
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      title: "lorem ispum sit dolor"

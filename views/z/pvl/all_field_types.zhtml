@@ -1,0 +1,10 @@
+<div className={styles.pvlRoot}>
+	<div style="display:flex" className={styles.pvlRow}>
+		<div style="flex:1" className={styles.pvlColumn}>
+			<h1>Hello World</h1>
+			<img width="100%" src="https://apps.zesty.io/freestyle/images/video-placeholder.jpg" alt="placeholder" />
+		</div>
+		<div style="flex:1" className={styles.pvlColumn}>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,58 @@
+
+  - id: "ccf0-1b56-aeb5"
+    web:
+      metaDescription: ""
+      metaTitle: "duplicate me"
+      metaLinkText: "duplicate me"
+      metaKeywords: null
+      pathPart: "duplicate-me"
+      path: "/duplicate-me/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 387
+      listed: true
+      createdByUserZUID: "5-84d1e6d4ae-s3m974"
+    data:
+      title: "duplicate me"
+  - id: "644f-46f2-873e"
+    web:
+      metaDescription: ""
+      metaTitle: "hello 2"
+      metaLinkText: "hello 2"
+      metaKeywords: null
+      pathPart: "hello-2"
+      path: "/hello-2/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 347
+      listed: true
+      createdByUserZUID: "5-8ed0a5a997-nqxdr1"
+    data:
+      title: "hello 2"
+  - id: "edf6-34fd-2c8d"
+    web:
+      metaDescription: ""
+      metaTitle: "Hello"
+      metaLinkText: "Hello"
+      metaKeywords: null
+      pathPart: "hello"
+      path: "/hello/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 346
+      listed: true
+      createdByUserZUID: "5-8ed0a5a997-nqxdr1"
+    data:
+      title: "Hello"

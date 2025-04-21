@@ -1,0 +1,4 @@
+<div className={styles.pvlRoot}>
+	<h1 class="pvlHeader">{{simple_page.first().title}}</h1>
+	<h1 class="pvlHeader">{{simple_page.first().title}}</h1>
+</div>

@@ -1,0 +1,21 @@
+
+  - id: "e4d1-7f1f-a07e"
+    web:
+      metaDescription: ""
+      metaTitle: "docs"
+      metaLinkText: "docs"
+      metaKeywords: null
+      pathPart: "docs"
+      path: "/docs/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 26
+      listed: true
+    data:
+      body: "eee"
+      description: "eee"
+      title: "ee"

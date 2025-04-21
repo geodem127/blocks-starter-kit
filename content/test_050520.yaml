@@ -1,0 +1,20 @@
+
+  - id: "41b4-e90c-b6eb"
+    web:
+      metaDescription: ""
+      metaTitle: "TEST"
+      metaLinkText: "TEST"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 319
+      listed: true
+      createdByUserZUID: "5-44ccc74-tr1vmph"
+    data:
+      test: "TEST"

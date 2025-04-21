@@ -1,0 +1,37 @@
+
+  - id: "10f4-cc9e-0c24"
+    web:
+      metaDescription: ""
+      metaTitle: "optional howdy"
+      metaLinkText: "optional howdy"
+      metaKeywords: null
+      pathPart: "optional-howdy"
+      path: "/optional-howdy/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 8
+      listed: true
+    data:
+      howdy: "optional howdy testDance Away Your Worries at Our Fun & Friendly Studio!dsa"
+  - id: "d6ea-ace7-cb08"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: "hello"
+      metaKeywords: null
+      pathPart: "tester"
+      path: "/tester/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 17
+      listed: true
+    data:
+      howdy: "test"

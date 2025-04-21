@@ -1,0 +1,81 @@
+
+  - id: "ab07-39c5-f424"
+    web:
+      metaDescription: ""
+      metaTitle: "https://www.youtube.com/"
+      metaLinkText: "https://www.youtube.com/"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 416
+      listed: true
+      createdByUserZUID: "5-84d1e6d4ae-s3m974"
+    data:
+      social_image: "https://dx8z8bb8.media.zestyio.com/youtube.png"
+      social_link: "https://www.youtube.com/"
+  - id: "0e43-eda7-f6eb"
+    web:
+      metaDescription: ""
+      metaTitle: "https://www.facebook.com"
+      metaLinkText: "https://www.facebook.com"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 419
+      listed: true
+      createdByUserZUID: "5-84d1e6d4ae-s3m974"
+    data:
+      social_image: "https://dx8z8bb8.media.zestyio.com/facebook.png"
+      social_link: "https://www.facebook.com"
+  - id: "756e-089d-b063"
+    web:
+      metaDescription: ""
+      metaTitle: "https://twitter.com/"
+      metaLinkText: "https://twitter.com/"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 417
+      listed: true
+      createdByUserZUID: "5-84d1e6d4ae-s3m974"
+    data:
+      social_image: "https://dx8z8bb8.media.zestyio.com/twitter.png"
+      social_link: "https://twitter.com/"
+  - id: "62cc-bcf0-618e"
+    web:
+      metaDescription: ""
+      metaTitle: "https://www.instagram.com/"
+      metaLinkText: "https://www.instagram.com/"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 418
+      listed: true
+      createdByUserZUID: "5-84d1e6d4ae-s3m974"
+    data:
+      social_image: "https://dx8z8bb8.media.zestyio.com/ig.png"
+      social_link: "https://www.instagram.com/"

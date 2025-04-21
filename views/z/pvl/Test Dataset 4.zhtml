@@ -1,0 +1,5 @@
+<div className={styles.pvlRoot}>
+	<img src="{{Test Dataset 4.first().media_1.getImage()}}" alt="@" width="100%" />
+	<br>
+	<br>
+</div>

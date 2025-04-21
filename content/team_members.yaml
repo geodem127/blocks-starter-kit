@@ -1,0 +1,20 @@
+
+  - id: "7ace-1719-6db4"
+    web:
+      metaDescription: ""
+      metaTitle: "Team Members"
+      metaLinkText: "Team Members"
+      metaKeywords: null
+      pathPart: "team-members"
+      path: "/team-members/"
+      sitemapPriority: -2
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 24
+      listed: true
+    data:
+      name: "njnkijo"
+      photo: "https://8xbq19z1.media.zestyio.com/gundam.JPG"

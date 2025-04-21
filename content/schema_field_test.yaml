@@ -1,0 +1,22 @@
+
+  - id: "7a8f-bc98-806f"
+    web:
+      metaDescription: ""
+      metaTitle: "schema_field_test"
+      metaLinkText: "schema_field_test"
+      metaKeywords: null
+      pathPart: "schema_field_test"
+      path: "/schema_field_test/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 18
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      article_writer: null
+      textarea: null
+      wysiwyg: null

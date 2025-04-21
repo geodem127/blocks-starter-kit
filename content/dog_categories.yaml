@@ -1,0 +1,61 @@
+
+  - id: "1cf6-ab89-27ab"
+    web:
+      metaDescription: ""
+      metaTitle: "Shih tzu"
+      metaLinkText: "Shih tzu"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 526
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      name: "Shih tzu"
+      size: null
+  - id: "16e0-70ea-fe9f"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 525
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      name: "Chihuaha"
+      size: "1"
+  - id: "1b02-ac49-b723"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 524
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      name: "Beagle"
+      size: "20"

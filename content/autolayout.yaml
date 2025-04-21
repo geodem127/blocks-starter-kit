@@ -1,0 +1,21 @@
+
+  - id: "6db0-c621-d47b"
+    web:
+      metaDescription: ""
+      metaTitle: "Autolayout"
+      metaLinkText: "Autolayout"
+      metaKeywords: null
+      pathPart: "autolayout"
+      path: "/autolayout/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 13
+      listed: true
+    data:
+      media: "https://8xbq19z1.media.zestyio.com/Polestar_2_006.jpg"
+      text: "test"
+      textarea: "test"

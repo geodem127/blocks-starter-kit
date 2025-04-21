@@ -1,0 +1,111 @@
+
+  - id: "ff4e-bc2a-a4be"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: "single-item-stagger-multi-publish-test-20210308-195124"
+      path: "/single-item-stagger-multi-publish-test-20210308-195124/"
+      sitemapPriority: 0
+      canonicalTagMode: 0
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: null
+      listed: false
+    data:
+      title: "Single Item Stagger Multi-Publish - Version 3 - 2021-03-08 19:52:24"
+  - id: "8734-0aa7-73be"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: "single-item-stagger-multi-publish-test-20210308-194009"
+      path: "/single-item-stagger-multi-publish-test-20210308-194009/"
+      sitemapPriority: 0
+      canonicalTagMode: 0
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: null
+      listed: false
+    data:
+      title: "Single Item Stagger Multi-Publish - Version 3 - 2021-03-08 19:41:09"
+  - id: "9621-6dae-4561"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: "single-item-future-publish-test2-20210308-194045"
+      path: "/single-item-future-publish-test2-20210308-194045/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 331
+      listed: true
+      createdByUserZUID: "5-aa9cc9a8b9-4vx2t5"
+    data:
+      title: "Single Item Future Publish (Cached) - Item Creation - Created At: 2021-03-08 19:39:45; Publish At: 2021-03-08 19:40:45"
+  - id: "e91c-a092-e761"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: "single-item-publish-test-20210308-193943"
+      path: "/single-item-publish-test-20210308-193943/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 330
+      listed: true
+      createdByUserZUID: "5-aa9cc9a8b9-4vx2t5"
+    data:
+      title: "Single Item Publish - Item Creation - 2021-03-08 19:39:43"
+  - id: "9db9-d53d-ffa8"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: "single-item-stagger-multi-publish-test-20210308-193703"
+      path: "/single-item-stagger-multi-publish-test-20210308-193703/"
+      sitemapPriority: 0
+      canonicalTagMode: 0
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: null
+      listed: false
+    data:
+      title: "Single Item Stagger Multi-Publish - Version 3 - 2021-03-08 19:37:33"
+  - id: "ad2a-5c2e-52ae"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: "single-item-stagger-multi-publish-test-20210308-193457"
+      path: "/single-item-stagger-multi-publish-test-20210308-193457/"
+      sitemapPriority: 0
+      canonicalTagMode: 0
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: null
+      listed: false
+    data:
+      title: "Single Item Stagger Multi-Publish - Version 3 - 2021-03-08 19:35:27"

@@ -1,39 +1,57 @@
-<link href="https://block.codescandy.com/assets/css/theme.min.css" rel="stylesheet" />
-<section class="bg-light py-7">
-	<div class="container py-4">
-		<div class="col-xxl-8 offset-xxl-2 col-md-12">
-			<div class="row align-items-center">
-				<div class="col-md-4">
-					<div class="mb-5 mb-lg-0">
-						<img
-							src="{{this.person_image.getImage()}}"
-							alt="textmonial"
-							class="img-fluid rounded-3" />
-					</div>
-				</div>
-				<div class="col-md-8">
-					<div class="mb-4">
-						<p class="lead text-dark me-xl-6">
-							“{{this.quote}}”
-						</p>
-					</div>
-					<div class="d-flex justify-content-between">
-						<div>
-							<h5 class="mb-0">{{this.person_name}}</h5>
-							<small>{{this.position}} @{{this.company_name}}</small>
-							<br />
-							<small>{{this.job_title}}</small>
-						</div>
-						<div>
-							<figure>
-								<img
-									src="{{this.company_logo.getImage()}}"
-									alt="brand" />
-							</figure>
-						</div>
-					</div>
-				</div>
-			</div>
+<div class="template-alert">
+	<style>
+	.template-alert {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		background-color: #10182880;
+	}
+	.alert-box {
+		box-sizing: border-box;
+		background-color: #FEF0C7;
+		border-radius: 8px;
+		padding: 32px;
+		width: 520px;
+		font-family: Arial, sans-serif;
+	}
+		.alert-icon {
+		color: #ff9f00;
+		font-size: 48px;
+		margin-bottom: 16px;
+	}
+	.alert-title {
+		font-weight: bold;
+		color: #B54708;
+		font-size: 32px;
+		margin-bottom: 8px;
+		line-height: 38px;
+	}
+	.alert-description {
+		color: #B54708;
+		font-size: 32px;
+		line-height: 48px;
+		margin-bottom: 20px;
+	}
+	.button {
+		display: inline-block;
+		background-color: #F79009;
+		color: white;
+		border: none;
+		border-radius: 8px;
+		padding: 10px 10px;
+		cursor: pointer;
+		font-size: 24px;
+		text-decoration: none;
+		line-height: 32px;
+	}
+	</style>
+	<div class="alert-box">
+		<div class="alert-icon">⚠️</div>
+		<div class="alert-title">Template File is empty</div>
+		<div class="alert-description">
+			Please add in the code for the block via the Code App.
 		</div>
-	</div>
-</section>
+		<a href="https://8-f48cf3a682-7fthvk.manager.zesty.io/code/file/views/11-a2a6dacef6-pcmkgc" target="_blank" class="button"><> Edit Template File</a>
+  </div>
+</div>

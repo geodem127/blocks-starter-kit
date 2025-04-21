@@ -1,0 +1,45 @@
+
+  - id: "aafa-9c3e-666c"
+    web:
+      metaDescription: ""
+      metaTitle: "dasdasdasdasd"
+      metaLinkText: "asdasdasdas"
+      metaKeywords: null
+      pathPart: "asdasdasdasdad"
+      path: "/asdasdasdasdad/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 510
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      product_description: "undefinedLooking for a reliable and sturdy camping tent to keep you sheltered during your outdoor adventures? Look no further than this high-quality camping tent for sale. This tent is designed with durability and comfort in mind, with a spacious interior that can comfortably accommodate up to 4 people. The tent is made from high-quality materials that are both weather-resistant and lightweight, making it the perfect companion for all your camping trips.\n\nSetting up this camping tent is a breeze, thanks to its simple and intuitive design. The tent comes with easy-to-follow instructions that will have you set up in no time, so you can spend more time enjoying the great outdoors. The tent features large windows and doors that provide excellent ventilation and allow you to enjoy panoramic views of your surroundings. With its reliable construction and thoughtful design, this camping tent is sure to become your go-to shelter for all your camping adventures.\n\nWhether you're embarking on a weekend camping trip or a week-long outdoor excursion, this camping tent has got you covered. The tent is spacious enough to comfortably sleep 4 people and their gear, making it ideal for families or groups of friends. The durable construction of the tent ensures that it will stand up to whatever the elements throw at it, keeping you safe and secure throughout your camping trip. With its high-quality materials and thoughtful design, this camping tent is a must-have for anyone who loves spending time in the great outdoors."
+      product_image: "https://wave-trial.getbynder.com/m/45b0d3ba0b271504/original/kim-cruickshanks-176374.jpg"
+      product_name: "Outdoor Adventure: Explore in Style with the Best Camping Tents for Your Next Trip"
+      product_price: "200"
+  - id: "2c86-f759-d87e"
+    web:
+      metaDescription: "Quando meta description. So many words."
+      metaTitle: "Quando meta title"
+      metaLinkText: "Quando Quando Oh lala"
+      metaKeywords: "comma, separated, keywords"
+      pathPart: "quando-quando"
+      path: "/quando-quando/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 513
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      product_description: null
+      product_image: null
+      product_name: null
+      product_price: null

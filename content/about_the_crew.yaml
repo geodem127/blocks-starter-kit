@@ -1,0 +1,162 @@
+
+  - id: "8bbd-5581-36c5"
+    web:
+      metaDescription: ""
+      metaTitle: "the-second-url"
+      metaLinkText: "the-second-url"
+      metaKeywords: null
+      pathPart: "the-second-url"
+      path: "/the-second-url/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 39
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      description: "<p>fff</p>"
+      name: "the-second-url"
+      new_markdown: null
+      new_wysiwyf: null
+      photo: "https://wave-trial.getbynder.com/m/64d27d95e7a7823a/original/Principle-example-1-2x.jpg"
+  - id: "69e3-266b-54a0"
+    web:
+      metaDescription: "the crew child"
+      metaTitle: "the crew childasldkjaslkdjaklsjdlasjdaklsjdaklsjdalksjdaklsjdalskdjaksldjalksjdkalsjaskljdaslkjdaskldjaksljdalskjdkalsjdklasjdklasjdklasjdklajsdklajsk"
+      metaLinkText: "the crew child"
+      metaKeywords: null
+      pathPart: "xxxxxxxx"
+      path: "/thecrewchild/xxxxxxxx/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/thecrewchild/"
+    meta:
+      sort: 515
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      description: "<p>xxx</p>"
+      name: "sdddd"
+      new_markdown: null
+      new_wysiwyf: null
+      photo: "https://8xbq19z1.media.zestyio.com/IMG_0658.HJUzo1VQkg.JPEG"
+  - id: "b10a-3eff-39a9"
+    web:
+      metaDescription: ""
+      metaTitle: "the-parent-url"
+      metaLinkText: "the-parent-url"
+      metaKeywords: null
+      pathPart: "the-parent-url"
+      path: "/the-parent-url/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 38
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      description: null
+      name: "xxx"
+      new_markdown: null
+      new_wysiwyf: null
+      photo: "3-12b45985-frzjfn"
+  - id: "8810-579d-e9de"
+    web:
+      metaDescription: ""
+      metaTitle: "child that has parent deleted"
+      metaLinkText: "child that has parent deleted"
+      metaKeywords: null
+      pathPart: "child-that-has-parent-deleted"
+      path: "/parent-to-be-deleted/child-that-has-parent-deleted/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/parent-to-be-deleted/"
+    meta:
+      sort: 522
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      description: null
+      name: "child that has parent deleted"
+      new_markdown: null
+      new_wysiwyf: null
+      photo: "https://wave-trial.getbynder.com/m/68ce663bc967e3ac/original/austin-neill-247047.jpg"
+  - id: "df71-afeb-4105"
+    web:
+      metaDescription: ""
+      metaTitle: "the-first-url"
+      metaLinkText: "the-first-url"
+      metaKeywords: null
+      pathPart: "the-first-url"
+      path: "/the-first-url/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 40
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      description: null
+      name: "the-first-url"
+      new_markdown: null
+      new_wysiwyf: null
+      photo: null
+  - id: "a9ca-e582-ff7f"
+    web:
+      metaDescription: ""
+      metaTitle: "asdasd"
+      metaLinkText: "asdasd"
+      metaKeywords: null
+      pathPart: "the-child-url"
+      path: "/the-parent-url/the-child-url/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/the-parent-url/"
+    meta:
+      sort: 518
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      description: null
+      name: "asdasd"
+      new_markdown: null
+      new_wysiwyf: null
+      photo: null
+  - id: "4694-c6da-a108"
+    web:
+      metaDescription: ""
+      metaTitle: "the-child-url"
+      metaLinkText: "the-child-url"
+      metaKeywords: null
+      pathPart: "thechildurl"
+      path: "/the-parent-url/thechildurl/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/the-parent-url/"
+    meta:
+      sort: 517
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      description: null
+      name: "the-child-url"
+      new_markdown: null
+      new_wysiwyf: null
+      photo: null

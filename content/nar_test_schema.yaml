@@ -1,0 +1,24 @@
+
+  - id: "bde7-c7a3-5408"
+    web:
+      metaDescription: "Specify this page's title and description. You can see how they'll look in search engine results pages (SERPs) and social media content in the preview on the r"
+      metaTitle: "nar test schema"
+      metaLinkText: "nar test schema"
+      metaKeywords: null
+      pathPart: "thecrewchild"
+      path: "/thecrewchild/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 37
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      fave_doggo: null
+      meme: null
+      money_bags: "1"
+      og_image: "https://8xbq19z1.media.zestyio.com/monkey_1234.jpg"
+      testttt: "asdasdasd"

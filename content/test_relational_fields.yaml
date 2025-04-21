@@ -1,0 +1,21 @@
+
+  - id: "80e6-bc20-dd92"
+    web:
+      metaDescription: ""
+      metaTitle: "test relational fields"
+      metaLinkText: "test relational fields"
+      metaKeywords: null
+      pathPart: "test-relational-fields"
+      path: "/test-relational-fields/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 611
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      1_to_1: "bebb-2b20-5572"
+      1_to_many: "b674-fb70-e7df,2260-b59d-100d,7bba-bb50-edbb,79a2-57aa-2d42,debd-6230-5f2e,d2d7-3276-b114,966c-c294-3241,bf6b-790f-6263,3e40-4b90-3e44,a158-ca73-9833,4ccc-9384-e41c,c626-8f0b-3dcb"

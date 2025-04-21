@@ -1,0 +1,24 @@
+
+  - id: "6b79-b621-3d2b"
+    web:
+      metaDescription: ""
+      metaTitle: "Module Blog"
+      metaLinkText: "Module Blog"
+      metaKeywords: null
+      pathPart: "module_blog"
+      path: "/module_blog/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 20
+      listed: true
+    data:
+      additional_contents: null
+      blog_author_date: null
+      blog_main_img: null
+      blog_title_header: "Test"
+      iframe_yt_vid: null
+      text_contents: null

@@ -1,0 +1,107 @@
+
+  - id: "406f-41af-2cd4"
+    web:
+      metaDescription: "new announcement"
+      metaTitle: "new announcement"
+      metaLinkText: "new announcement"
+      metaKeywords: null
+      pathPart: "new-announcement"
+      path: "/new-announcement/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 489
+      listed: true
+    data:
+      announcement_link: "new announcement"
+      cta_type: "schedule_training"
+      description: "new announcement"
+      end_date_and_time: "2023-12-14 01:13:00.000000"
+      feature_image: "https://8xbq19z1.media.zestyio.com/pikachue.gif"
+      start_date_and_time: "2023-12-14 01:12:00.000000"
+      title: "new announcement"
+      training_link: "new announcement"
+      video_link: "new announcement"
+  - id: "3328-62fd-cf04"
+    web:
+      metaDescription: "random"
+      metaTitle: "random"
+      metaLinkText: "random"
+      metaKeywords: null
+      pathPart: "random"
+      path: "/random/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 488
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      announcement_link: "random"
+      cta_type: "play_video"
+      description: "random"
+      end_date_and_time: "2023-10-31 00:00:00.000000"
+      feature_image: "https://8xbq19z1.media.zestyio.com/gundam.JPG"
+      start_date_and_time: "2023-10-27 00:00:00.000000"
+      title: "random"
+      training_link: "random"
+      video_link: "random"
+  - id: "d56f-0359-c16e"
+    web:
+      metaDescription: "Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum"
+      metaTitle: "Create Sample Announcements Item"
+      metaLinkText: "Create Sample Announcements Item"
+      metaKeywords: null
+      pathPart: "create-sample-announcements-item"
+      path: "/create-sample-announcements-item/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 487
+      listed: true
+      createdByUserZUID: "5-faeda8978e-j5xb6l"
+    data:
+      announcement_link: "https://www.google.com/"
+      cta_type: "schedule_training"
+      description: "Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum"
+      end_date_and_time: "2023-11-02 00:00:00.000000"
+      feature_image: "https://8xbq19z1.media.zestyio.com/zestyio_content_hero.HyJzbvuEh.png"
+      start_date_and_time: "2023-10-27 00:00:00.000000"
+      title: "Create Sample Announcements Item"
+      training_link: "https://www.google.com/"
+      video_link: null
+  - id: "b84f-eefa-b30b"
+    web:
+      metaDescription: "Zesty's new GA4 integration provides a familiar dashboard, per page analytics and built in A/B testing. Contact our support to get integration instructions."
+      metaTitle: "Integrate your Google Analytics (GA4) into Zesty"
+      metaLinkText: "Integrate your Google Analytics (GA4) into Zesty"
+      metaKeywords: null
+      pathPart: "integrate-your-google-analytics-ga4-into-zesty"
+      path: "/integrate-your-google-analytics-ga4-into-zesty/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 486
+      listed: true
+    data:
+      announcement_link: "https://zesty.org/apis/json-endpoints/instant-content-api"
+      cta_type: "play_video"
+      description: "Zesty's new GA4 integration provides a familiar dashboard, per page analytics and built in A/B testing. Contact our support to get integration instructions."
+      end_date_and_time: "2023-10-30 00:01:00.000000"
+      feature_image: "https://8xbq19z1.media.zestyio.com/3.png"
+      start_date_and_time: "2023-10-27 13:43:00.000000"
+      title: "Integrate your Google Analytics (GA4) into Zesty"
+      training_link: null
+      video_link: "https://zesty.org/apis/json-endpoints/instant-content-api"

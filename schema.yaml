@@ -1,3 +1,3425 @@
+
+  - description: null
+    label: "Clippings"
+    name: "clippings"
+    sort: 1
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/clippings.yaml"
+    fields:
+      - name: "site_name"
+        label: "Site Name"
+        description: null
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          options: {}
+      - name: "logo"
+        label: "Site Logo"
+        description: null
+        datatype: "images"
+        sort: 2
+        required: null
+        relationship: null
+        settings:
+          limit: 1
+          options: {}
+      - name: "footer_text"
+        label: "Footer Text"
+        description: null
+        datatype: "text"
+        sort: 3
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "node-sdk_createItem_1718170376140"
+        label: "node-sdk_createItem_1718170376140"
+        description: null
+        datatype: "text"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "node-sdk_createItem_1718170459540"
+        label: "node-sdk_createItem_1718170459540"
+        description: null
+        datatype: "text"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "node-sdk_createItem_1718238230897"
+        label: "node-sdk_createItem_1718238230897"
+        description: null
+        datatype: "text"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Dashboard Widgets"
+    name: "widgets"
+    sort: 1
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/widgets.yaml"
+    fields:
+      - name: "type"
+        label: "Type"
+        description: null
+        datatype: "text"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "set_zuid"
+        label: "Set ZUID"
+        description: null
+        datatype: "text"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "direction"
+        label: "Direction"
+        description: null
+        datatype: "text"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "widget_size"
+        label: "Widget Size"
+        description: null
+        datatype: "text"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "position"
+        label: "Position"
+        description: null
+        datatype: "number"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "header"
+        label: "Header"
+        description: null
+        datatype: "text"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+      - name: "data"
+        label: "Data"
+        description: null
+        datatype: "textarea"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+  - description: "homepage description"
+    label: "Homepage"
+    name: "homepage"
+    sort: 1
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/homepage.tpl"
+    content: "/content/homepage.yaml"
+    fields:
+      - name: "title"
+        label: "Lead in Title"
+        description: null
+        datatype: "text"
+        sort: 0
+        required: true
+        relationship: null
+        settings:
+          defaultValue: "default single line text field"
+          list: true
+      - name: "content"
+        label: "Intro Text"
+        description: null
+        datatype: "wysiwyg_advanced"
+        sort: 5
+        required: null
+        relationship: null
+        settings:
+          list: true
+          options: {}
+      - name: "image"
+        label: "Main Image"
+        description: null
+        datatype: "images"
+        sort: 1
+        required: null
+        relationship: null
+        settings:
+          defaultValue: "3-b138798-m6iot"
+          limit: 1
+          list: true
+      - name: "image_1"
+        label: "image_1"
+        description: null
+        datatype: "images"
+        sort: 2
+        required: null
+        relationship: null
+        settings:
+          limit: "10"
+          list: false
+          options: {}
+      - name: "image_2"
+        label: "image_2"
+        description: null
+        datatype: "images"
+        sort: 5
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "image_3"
+        label: "image_3"
+        description: null
+        datatype: "images"
+        sort: 6
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "image_4"
+        label: "image_4"
+        description: null
+        datatype: "images"
+        sort: 7
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "image_5"
+        label: "image_5"
+        description: null
+        datatype: "images"
+        sort: 8
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "habibi"
+        label: "habibi"
+        description: "habibi internal link"
+        datatype: "internal_link"
+        sort: 8
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "7-b8d0a0c0c2-5570ww"
+          list: true
+          tooltip: "habibi internal link"
+      - name: "david_uuid"
+        label: "David UUID"
+        description: ""
+        datatype: "uuid"
+        sort: 9
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "test_yes_no_mm"
+        label: "Test Yes No MM"
+        description: ""
+        datatype: "yes_no"
+        sort: 11
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+      - name: "yes_no_test_mm"
+        label: "Yes No Test MM"
+        description: ""
+        datatype: "yes_no"
+        sort: 11
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+  - description: null
+    label: "otherpage"
+    name: "otherpage"
+    sort: 1
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/otherpage.tpl"
+    content: "/content/otherpage.yaml"
+    fields:
+      - name: "title"
+        label: "title"
+        description: null
+        datatype: "text"
+        sort: 0
+        required: true
+        relationship: null
+        settings:
+          list: false
+          options: {}
+      - name: "test_content"
+        label: "Test Content"
+        description: null
+        datatype: "wysiwyg_basic"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          list: false
+      - name: "multiple_images"
+        label: "Multiple Images"
+        description: null
+        datatype: "text"
+        sort: 2
+        required: true
+        relationship: null
+        settings:
+          list: false
+      - name: "2x_images"
+        label: "2x Images"
+        description: null
+        datatype: "images"
+        sort: 4
+        required: true
+        relationship: null
+        settings:
+          limit: 3
+          list: false
+      - name: "test_fix_2711"
+        label: "Test_fix_2711"
+        description: ""
+        datatype: "yes_no"
+        sort: 3
+        required: true
+        relationship: null
+        settings:
+          list: false
+          options:
+            0: "No"
+            1: "Yes"
+      - name: "test"
+        label: "test"
+        description: ""
+        datatype: "dropdown"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "uiser_id"
+        label: "uiser id"
+        description: "aaaaa"
+        datatype: "uuid"
+        sort: 6
+        required: true
+        relationship: null
+        settings:
+          list: true
+  - description: "Howdy there all fields"
+    label: "All Field Types"
+    name: "all_field_types"
+    sort: 1
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/all_field_types.tpl"
+    content: "/content/all_field_types.yaml"
+    fields:
+      - name: "text_field"
+        label: "Text"
+        description: "dasdsadsaddasdsadsaddasdsadsaddasdsadsaddasdsadsaddasdsadsaddasdsadsaddasdsadsaddasdsadsaddasdsadsaddasdsadsaddasdsadsaddasdsadsaddasdsadsaddasdsadsaddasdsadsad"
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          list: true
+          tooltip: "<a href=\"test\">test</a>"
+      - name: "wysiwyg_basic"
+        label: "WYSIWYG Basic"
+        description: null
+        datatype: "wysiwyg_basic"
+        sort: 0
+        required: true
+        relationship: null
+        settings:
+          list: true
+          options: {}
+      - name: "images"
+        label: "Images"
+        description: null
+        datatype: "images"
+        sort: 7
+        required: null
+        relationship: null
+        settings:
+          limit: 10
+          list: false
+          options: {}
+      - name: "textarea"
+        label: "Textarea"
+        description: "test test"
+        datatype: "textarea"
+        sort: 5
+        required: null
+        relationship: null
+        settings:
+          list: false
+          options: {}
+          tooltip: "test"
+      - name: "date"
+        label: "Date"
+        description: null
+        datatype: "date"
+        sort: 6
+        required: null
+        relationship: null
+        settings:
+          list: false
+          options: {}
+      - name: "wysiwyg_advanced"
+        label: "WYSIWYG Advanced"
+        description: null
+        datatype: "wysiwyg_advanced"
+        sort: 2
+        required: null
+        relationship: null
+        settings:
+          list: false
+          options: {}
+      - name: "article_writer"
+        label: "Article Writer"
+        description: null
+        datatype: "article_writer"
+        sort: 3
+        required: null
+        relationship: null
+        settings:
+          list: false
+          options: {}
+      - name: "dropdown"
+        label: "Dropdown"
+        description: null
+        datatype: "dropdown"
+        sort: 10
+        required: null
+        relationship: null
+        settings:
+          list: false
+          options:
+            custom_option_one: "Custom Option One"
+            custom_option_two: "Custom Option Two"
+      - name: "url_link"
+        label: "URL / Link"
+        description: null
+        datatype: "link"
+        sort: 11
+        required: null
+        relationship: null
+        settings:
+          list: false
+          options: {}
+      - name: "internal_link"
+        label: "Internal Link"
+        description: null
+        datatype: "internal_link"
+        sort: 12
+        required: null
+        relationship: null
+        settings:
+          list: false
+          options: {}
+      - name: "date_time"
+        label: "Date & Time"
+        description: null
+        datatype: "datetime"
+        sort: 9
+        required: null
+        relationship: null
+        settings:
+          list: false
+          options: {}
+      - name: "yes_no"
+        label: "YES / NO"
+        description: null
+        datatype: "yes_no"
+        sort: 13
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+      - name: "yes_no_with_custom_values"
+        label: "YES / NO with Custom Values"
+        description: null
+        datatype: "yes_no"
+        sort: 14
+        required: null
+        relationship: null
+        settings:
+          list: false
+          options:
+            0: "Custom Two"
+            1: "Custom One"
+      - name: "font_awesome"
+        label: "Font Awesome"
+        description: null
+        datatype: "fontawesome"
+        sort: 15
+        required: null
+        relationship: null
+        settings:
+          list: false
+          options: {}
+      - name: "number"
+        label: "Number"
+        description: null
+        datatype: "number"
+        sort: 16
+        required: true
+        relationship: null
+        settings:
+          list: false
+          options: {}
+      - name: "currency"
+        label: "Currency"
+        description: null
+        datatype: "currency"
+        sort: 17
+        required: null
+        relationship: null
+        settings:
+          list: false
+          options: {}
+      - name: "color"
+        label: "Color"
+        description: null
+        datatype: "color"
+        sort: 18
+        required: null
+        relationship: null
+        settings:
+          list: false
+          options: {}
+      - name: "uuid"
+        label: "UUID"
+        description: null
+        datatype: "uuid"
+        sort: 19
+        required: null
+        relationship: null
+        settings:
+          list: false
+          options: {}
+      - name: "files"
+        label: "Files"
+        description: null
+        datatype: "files"
+        sort: 8
+        required: null
+        relationship: null
+        settings:
+          limit: 1
+          list: false
+          options: {}
+      - name: "sort"
+        label: "Sort"
+        description: null
+        datatype: "sort"
+        sort: 20
+        required: null
+        relationship: null
+        settings:
+          list: false
+          options: {}
+      - name: "markdown"
+        label: "Markdown"
+        description: null
+        datatype: "markdown"
+        sort: 4
+        required: null
+        relationship: null
+        settings:
+          list: false
+          options: {}
+      - name: "one_to_one"
+        label: "One to One"
+        description: null
+        datatype: "one_to_one"
+        sort: 21
+        required: null
+        relationship:
+          name: "blog_posts"
+          display: "text"
+        settings:
+          defaultValue: null
+          list: false
+          options: {}
+      - name: "one_to_many"
+        label: "One to Many"
+        description: null
+        datatype: "one_to_many"
+        sort: 22
+        required: null
+        relationship:
+          name: "articles"
+          display: "node-sdk_updateItem_1733876716599"
+        settings:
+          defaultValue: null
+          list: false
+      - name: "required_field_1"
+        label: "required field 1"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "block"
+        label: "block"
+        description: ""
+        datatype: "block_selector"
+        sort: 25
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "blog posts"
+    name: "blog_posts"
+    sort: 6
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: null
+    view: "/views/blog_posts.tpl"
+    content: "/content/blog_posts.yaml"
+    fields:
+      - name: "text"
+        label: "text"
+        description: null
+        datatype: "text"
+        sort: 0
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+      - name: "uuid"
+        label: "UUID"
+        description: null
+        datatype: "uuid"
+        sort: 1
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+      - name: "sort"
+        label: "sort"
+        description: null
+        datatype: "sort"
+        sort: 2
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+      - name: "test_2"
+        label: "TEST 2"
+        description: null
+        datatype: "yes_no"
+        sort: 3
+        required: true
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "False"
+            1: "True"
+      - name: "a_number_field"
+        label: "A number field"
+        description: ""
+        datatype: "number"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "sdasdsadsa"
+        label: "sdasdsadsa"
+        description: ""
+        datatype: "images"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "content"
+        label: "content"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "test for multi language"
+    name: "test_for_multi_language"
+    sort: 1
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/test_for_multi_language.tpl"
+    content: "/content/test_for_multi_language.yaml"
+    fields:
+      - name: "date"
+        label: "Date"
+        description: ""
+        datatype: "date"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "text_field_"
+        label: "text field "
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Cypress test (Group with visible fields in list)"
+    name: "group_with_visible_fields_in_list"
+    sort: 1
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: "all_field_types"
+    view: "/views/group_with_visible_fields_in_list.tpl"
+    content: "/content/group_with_visible_fields_in_list.yaml"
+    fields:
+      - name: "wysiwyg_basic"
+        label: "wysiwyg basic"
+        description: null
+        datatype: "wysiwyg_basic"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+      - name: "title"
+        label: "title"
+        description: null
+        datatype: "text"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+      - name: "test_related_field_filtering"
+        label: "test related field filtering"
+        description: ""
+        datatype: "one_to_one"
+        sort: 10000
+        required: false
+        relationship:
+          name: "test_for_multi_language"
+          display: "date"
+        settings:
+          list: true
+      - name: "dropdown1"
+        label: "dropdown1"
+        description: ""
+        datatype: "dropdown"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Headless Items"
+    name: "headless_items"
+    sort: 1
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/headless_items.yaml"
+    fields:
+      - name: "field1"
+        label: "Field1"
+        description: null
+        datatype: "text"
+        sort: 0
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+      - name: "field2"
+        label: "Field2"
+        description: null
+        datatype: "text"
+        sort: 2
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+  - description: null
+    label: "Headless Test Page"
+    name: "headless_test_page"
+    sort: 1
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/headless_test_page.tpl"
+    content: "/content/headless_test_page.yaml"
+    fields:
+      - name: "text_field"
+        label: "Text Field"
+        description: null
+        datatype: "text"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          options: {}
+  - description: null
+    label: "Simple Page"
+    name: "simple_page"
+    sort: 1
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/simple_page.tpl"
+    content: "/content/simple_page.yaml"
+    fields:
+      - name: "title"
+        label: "Page Title"
+        description: null
+        datatype: "text"
+        sort: 0
+        required: true
+        relationship: null
+        settings:
+          list: false
+          options: {}
+      - name: "content"
+        label: "Page Content"
+        description: null
+        datatype: "wysiwyg_advanced"
+        sort: 1
+        required: null
+        relationship: null
+        settings:
+          list: false
+          options: {}
+      - name: "image"
+        label: "Page Image"
+        description: ""
+        datatype: "images"
+        sort: 2
+        required: null
+        relationship: null
+        settings:
+          limit: 1
+          list: false
+  - description: null
+    label: "Sidebar Contact Form"
+    name: "sidebar_contact_form"
+    sort: 1
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/sidebar_contact_form.yaml"
+    fields:
+      - name: "label"
+        label: "Label Text"
+        description: null
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+      - name: "input_type"
+        label: "Input Type"
+        description: null
+        datatype: "dropdown"
+        sort: 2
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options:
+            text: "Text Field"
+            textarea: "Text Area"
+      - name: "is_required"
+        label: "Field is required"
+        description: null
+        datatype: "dropdown"
+        sort: 3
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options:
+            optional: "No, optional"
+            required: "Yes, required"
+      - name: "sort"
+        label: "Sort"
+        description: null
+        datatype: "sort"
+        sort: 4
+        required: null
+        relationship: null
+        settings:
+          default_sort: 1
+          list: 1
+          options: {}
+  - description: null
+    label: "test templateset 3000"
+    name: "Test Templateset 3000"
+    sort: 301
+    listed: false
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    content: "/content/Test Templateset 3000.yaml"
+    fields: []
+  - description: "asdf"
+    label: "Clipping"
+    name: "clipping"
+    sort: 4
+    listed: false
+    hasRoute: true
+    showAsTable: true
+    parent: null
+    content: "/content/clipping.yaml"
+    fields:
+      - name: "textfield"
+        label: "textfield label"
+        description: null
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          options: {}
+  - description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    label: "Test Dataset 4"
+    name: "Test Dataset 4"
+    sort: 303
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/Test Dataset 4.yaml"
+    fields:
+      - name: "media_1"
+        label: "Media 1"
+        description: ""
+        datatype: "images"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Schema Release Test Headless Data Set"
+    name: "schema_release_test_headless_data_set"
+    sort: 305
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "Test Dataset 4"
+    content: "/content/schema_release_test_headless_data_set.yaml"
+    fields:
+      - name: "id"
+        label: "ID"
+        description: null
+        datatype: "uuid"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          options: {}
+      - name: "active"
+        label: "Active"
+        description: null
+        datatype: "yes_no"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          options: {}
+  - description: ""
+    label: "Test Field Reactivation"
+    name: "test_field_reactivation"
+    sort: 308
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/test_field_reactivation.tpl"
+    content: "/content/test_field_reactivation.yaml"
+    fields:
+      - name: "date_time"
+        label: "Date/Time"
+        description: ""
+        datatype: "datetime"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "test headless model"
+    name: "test_headless_model"
+    sort: 313
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/test_headless_model.tpl"
+    content: "/content/test_headless_model.yaml"
+    fields: []
+  - description: ""
+    label: "another_test"
+    name: "another_test"
+    sort: 315
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/another_test.yaml"
+    fields:
+      - name: "some_new_4"
+        label: "some new 3"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "dasdsad"
+        label: "dasdsad"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "another_test_model"
+    name: "another_test_model"
+    sort: 316
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/another_test_model.yaml"
+    fields:
+      - name: "test"
+        label: "Test"
+        description: ""
+        datatype: "images"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: "test"
+    label: "TEST 050520"
+    name: "test_050520"
+    sort: 318
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/test_050520.yaml"
+    fields:
+      - name: "test"
+        label: "TEST"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: "Used for publishing tests"
+    label: "Publish Examples"
+    name: "publish_examples"
+    sort: 2
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: null
+    view: "/views/publish_examples.tpl"
+    content: "/content/publish_examples.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Advanced Publishing Examples"
+    name: "advanced_publishing_examples"
+    sort: 10
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: null
+    view: "/views/advanced_publishing_examples.tpl"
+    content: "/content/advanced_publishing_examples.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Autolayout"
+    name: "autolayout"
+    sort: 338
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/autolayout.tpl"
+    content: "/content/autolayout.yaml"
+    fields:
+      - name: "text"
+        label: "text"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "textarea"
+        label: "textarea"
+        description: ""
+        datatype: "textarea"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "media"
+        label: "media"
+        description: ""
+        datatype: "images"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Optional Chaining"
+    name: "optional_chaining"
+    sort: 340
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/optional_chaining.tpl"
+    content: "/content/optional_chaining.yaml"
+    fields:
+      - name: "howdy"
+        label: "howdy"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Habibi Multi Parent"
+    name: "habibi_multi_parent"
+    sort: 14
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: null
+    view: "/views/habibi_multi_parent.tpl"
+    content: "/content/habibi_multi_parent.yaml"
+    fields:
+      - name: "12_text_field"
+        label: "12-text field"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Habibi multi nested"
+    name: "habibi_multi_nested"
+    sort: 366
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: "blog_posts"
+    view: "/views/habibi_multi_nested.tpl"
+    content: "/content/habibi_multi_nested.yaml"
+    fields:
+      - name: "nested_one"
+        label: "nested One"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "image_nest_lock"
+        label: "image nest lock"
+        description: ""
+        datatype: "images"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "new_one"
+        label: "new one"
+        description: ""
+        datatype: "images"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Habibi Recipes "
+    name: "habibi_recipes_"
+    sort: 381
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/habibi_recipes_.yaml"
+    fields:
+      - name: "recipe_title"
+        label: "Recipe Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "image"
+        label: "Image"
+        description: ""
+        datatype: "images"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          limit: "15"
+          list: true
+      - name: "ef_issue_number"
+        label: "EF Issue Number"
+        description: ""
+        datatype: "one_to_many"
+        sort: 10000
+        required: false
+        relationship:
+          name: "ef_issue_number"
+          display: "ef_issue_number"
+        settings:
+          list: true
+      - name: "author"
+        label: "Author"
+        description: ""
+        datatype: "one_to_many"
+        sort: 10000
+        required: false
+        relationship:
+          name: "habibi_author"
+          display: "author"
+        settings:
+          list: true
+      - name: "fun_fun_functions__hel"
+        label: "fun_fun_fun_fun_functions"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "EF Issue Number"
+    name: "ef_issue_number"
+    sort: 382
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/ef_issue_number.yaml"
+    fields:
+      - name: "ef_issue_number"
+        label: "EF Issue Number"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Habibi Author"
+    name: "habibi_author"
+    sort: 383
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/habibi_author.yaml"
+    fields:
+      - name: "author"
+        label: "Author"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "hello_world"
+        label: "hello world"
+        description: "hello descript"
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "hello tooltip"
+  - description: ""
+    label: "single"
+    name: "single"
+    sort: 389
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/single.yaml"
+    fields:
+      - name: "test"
+        label: "test"
+        description: ""
+        datatype: "one_to_one"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Advanced Publishing Examples_1652216852469"
+    name: "advanced_publishing_examples_1652216852469"
+    sort: 11
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: null
+    view: "/views/advanced_publishing_examples_1652216852469.tpl"
+    content: "/content/advanced_publishing_examples_1652216852469.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "New Model Name"
+    name: "new_model_name"
+    sort: 397
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: "new_schema_all_fields"
+    view: "/views/new_model_name.tpl"
+    content: "/content/new_model_name.yaml"
+    fields: []
+  - description: ""
+    label: "schema_field_test"
+    name: "schema_field_test"
+    sort: 401
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/schema_field_test.tpl"
+    content: "/content/schema_field_test.yaml"
+    fields:
+      - name: "wysiwyg"
+        label: "wysiwyg"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "article_writer"
+        label: "article writer"
+        description: ""
+        datatype: "article_writer"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "textarea"
+        label: "textarea"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "New Schema All Fields"
+    name: "new_schema_all_fields"
+    sort: 403
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/new_schema_all_fields.tpl"
+    content: "/content/new_schema_all_fields.yaml"
+    fields:
+      - name: "text"
+        label: "Text"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+          maxCharLimit: 30
+          minCharLimit: 10
+      - name: "textarea"
+        label: "TextArea"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+          regexMatchErrorMessage: "Must be an email (e.g. hello@zesty.io)"
+          regexMatchPattern: "[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
+      - name: "wysiwyg"
+        label: "WYSIWYG"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "markdown"
+        label: "Markdown"
+        description: ""
+        datatype: "markdown"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "article_writer"
+        label: "Article Writer"
+        description: ""
+        datatype: "article_writer"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "media"
+        label: "Media"
+        description: ""
+        datatype: "images"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "date"
+        label: "Date"
+        description: ""
+        datatype: "date"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "date_time"
+        label: "Date Time"
+        description: ""
+        datatype: "datetime"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "dropdown"
+        label: "Dropdown"
+        description: ""
+        datatype: "dropdown"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "one_to_one"
+        label: "One To One"
+        description: ""
+        datatype: "one_to_one"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "one_to_many"
+        label: "One To Many"
+        description: ""
+        datatype: "one_to_many"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "external_url"
+        label: "External URL"
+        description: ""
+        datatype: "link"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "internal_link"
+        label: "Internal Link"
+        description: ""
+        datatype: "internal_link"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "toggle"
+        label: "Toggle"
+        description: ""
+        datatype: "yes_no"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+      - name: "number"
+        label: "Number"
+        description: ""
+        datatype: "number"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "color"
+        label: "Color"
+        description: ""
+        datatype: "color"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "sort"
+        label: "Sort"
+        description: ""
+        datatype: "sort"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "currency"
+        label: "Currency"
+        description: ""
+        datatype: "currency"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "uuid"
+        label: "UUID"
+        description: ""
+        datatype: "uuid"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "testingdesc"
+    name: "testingdesc"
+    sort: 405
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/testingdesc.yaml"
+    fields: []
+  - description: ""
+    label: "test2"
+    name: "test2"
+    sort: 406
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/test2.yaml"
+    fields:
+      - name: "test"
+        label: "test"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "eee"
+        label: "eee"
+        description: ""
+        datatype: "one_to_one"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "new"
+        label: "new"
+        description: ""
+        datatype: "one_to_one"
+        sort: 10000
+        required: false
+        relationship:
+          name: "all_field_types"
+          display: "text_field"
+        settings:
+          list: true
+      - name: "new2"
+        label: "new2"
+        description: ""
+        datatype: "one_to_one"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "aaaaa"
+        label: "aaaaa"
+        description: ""
+        datatype: "one_to_one"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "test"
+    name: "test"
+    sort: 407
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    view: "/views/test.tpl"
+    content: "/content/test.yaml"
+    fields:
+      - name: "test"
+        label: "test"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Module Blog"
+    name: "module_blog"
+    sort: 409
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/module_blog.tpl"
+    content: "/content/module_blog.yaml"
+    fields:
+      - name: "blog_title_header"
+        label: "Blog title Header"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "blog_author_date"
+        label: "Blog author-date"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+      - name: "blog_main_img"
+        label: "Blog Main Img"
+        description: ""
+        datatype: "images"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "text_contents"
+        label: "Text Contents"
+        description: ""
+        datatype: "textarea"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "additional_contents"
+        label: "Additional Contents"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "iframe_yt_vid"
+        label: "Iframe yt vid"
+        description: ""
+        datatype: "textarea"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Module Category Badge Text"
+    name: "module_category_badge_text"
+    sort: 411
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "module_blog"
+    content: "/content/module_category_badge_text.yaml"
+    fields:
+      - name: "badge_content"
+        label: "Badge Content"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Module Blog Categories"
+    name: "module_blog_categories"
+    sort: 412
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "module_blog"
+    content: "/content/module_blog_categories.yaml"
+    fields:
+      - name: "category_content"
+        label: "Category Content"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "category_link"
+        label: "Category Link"
+        description: ""
+        datatype: "link"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Module Blog Popular blogs"
+    name: "module_blog_popular_blogs"
+    sort: 413
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "module_blog"
+    content: "/content/module_blog_popular_blogs.yaml"
+    fields:
+      - name: "img_thumbnail"
+        label: "img-thumbnail"
+        description: ""
+        datatype: "images"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "blog_description"
+        label: "Blog Description"
+        description: ""
+        datatype: "text"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "popular_blog_link"
+        label: "Popular Blog Link"
+        description: ""
+        datatype: "link"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Module Blog Related Videos"
+    name: "module_blog_related_videos"
+    sort: 414
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "module_blog"
+    content: "/content/module_blog_related_videos.yaml"
+    fields:
+      - name: "iframe_video"
+        label: "Iframe Video"
+        description: ""
+        datatype: "textarea"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "text"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Module Blog Author Social Links"
+    name: "module_blog_author_social_links"
+    sort: 415
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "module_blog"
+    content: "/content/module_blog_author_social_links.yaml"
+    fields:
+      - name: "social_link"
+        label: "Social Link"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "social_image"
+        label: "social image"
+        description: ""
+        datatype: "images"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "nar testing playground"
+    name: "nar_testing_playground"
+    sort: 437
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/nar_testing_playground.yaml"
+    fields:
+      - name: "dropdown_field"
+        label: "dropdown field"
+        description: ""
+        datatype: "dropdown"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            aaaa: "aaaa"
+            another_label: "another label"
+      - name: "test"
+        label: "test"
+        description: ""
+        datatype: "dropdown"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            : "jjjjj"
+            option_1: "ddd"
+      - name: "toggle_field_with_content"
+        label: "toggle field with content"
+        description: ""
+        datatype: "yes_no"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "Yes"
+            1: "Yes"
+      - name: "toggle_field_without_contnt"
+        label: "toggle field without contnt"
+        description: ""
+        datatype: "yes_no"
+        sort: 10001
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: ""
+            1: ""
+      - name: "relationship_field_deactivated"
+        label: "relationship field deactivated"
+        description: ""
+        datatype: "one_to_one"
+        sort: 10001
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "let_me_know_whatchu_think"
+        label: "Let me know whatchu think"
+        description: ""
+        datatype: "text"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "blah_blah"
+        label: "blah blah"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 11
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "image"
+        label: "image"
+        description: ""
+        datatype: "images"
+        sort: 12
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+      - name: "cash_or_credit"
+        label: "cash or credit"
+        description: ""
+        datatype: "currency"
+        sort: 13
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "sort"
+        label: "sort"
+        description: ""
+        datatype: "number"
+        sort: 14
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: "DO NOT DELETE OR UPDATE"
+    label: "Schema Fields Cypress Test DO NOT DELETE"
+    name: "schema_field_cypress_test"
+    sort: 438
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/schema_field_cypress_test.tpl"
+    content: "/content/schema_field_cypress_test.yaml"
+    fields: []
+  - description: ""
+    label: "testingdataset"
+    name: "testingdataset"
+    sort: 442
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: "test2"
+    view: "/views/testingdataset.tpl"
+    content: "/content/testingdataset.yaml"
+    fields: []
+  - description: ""
+    label: "Food recipes"
+    name: "food_recipes"
+    sort: 443
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: "test_for_multi_language"
+    view: "/views/food_recipes.tpl"
+    content: "/content/food_recipes.yaml"
+    fields:
+      - name: "name"
+        label: "name"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Another Food Channel"
+    name: "another_food_channel"
+    sort: 445
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/another_food_channel.tpl"
+    content: "/content/another_food_channel.yaml"
+    fields: []
+  - description: ""
+    label: "a new single page model is here"
+    name: "a_new_single_page_model_is_here"
+    sort: 446
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/a_new_single_page_model_is_here.tpl"
+    content: "/content/a_new_single_page_model_is_here.yaml"
+    fields: []
+  - description: ""
+    label: "About The Crew"
+    name: "about_the_crew"
+    sort: 447
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: "homepage"
+    view: "/views/about_the_crew.tpl"
+    content: "/content/about_the_crew.yaml"
+    fields:
+      - name: "name"
+        label: "Name"
+        description: ""
+        datatype: "text"
+        sort: 2
+        required: true
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "photo"
+        label: "Photo"
+        description: ""
+        datatype: "images"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+      - name: "description"
+        label: "description"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "new_wysiwyf"
+        label: "new wysiwyf"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "new_markdown"
+        label: "new markdown"
+        description: ""
+        datatype: "markdown"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+  - description: ""
+    label: "Vacation Spots"
+    name: "vacation_spots"
+    sort: 448
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/vacation_spots.tpl"
+    content: "/content/vacation_spots.yaml"
+    fields: []
+  - description: ""
+    label: "Vacation Eats"
+    name: "vacation_eats"
+    sort: 449
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: "vacation_spots"
+    view: "/views/vacation_eats.tpl"
+    content: "/content/vacation_eats.yaml"
+    fields: []
+  - description: ""
+    label: "Team Members"
+    name: "team_members"
+    sort: 450
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: "food_recipes"
+    view: "/views/team_members.tpl"
+    content: "/content/team_members.yaml"
+    fields:
+      - name: "photo"
+        label: "Photo"
+        description: ""
+        datatype: "images"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+      - name: "name"
+        label: "Name"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "nar multipage model"
+    name: "nar_multipage_model"
+    sort: 25
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: null
+    view: "/views/nar_multipage_model.tpl"
+    content: "/content/nar_multipage_model.yaml"
+    fields:
+      - name: "product_price"
+        label: "Product Price"
+        description: ""
+        datatype: "currency"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "product_name"
+        label: "Product Name"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "product_description"
+        label: "Product Description"
+        description: ""
+        datatype: "textarea"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "product_image"
+        label: "Product Image"
+        description: ""
+        datatype: "images"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: ""
+          list: true
+  - description: "List of articles to read\n"
+    label: "Articles"
+    name: "articles"
+    sort: 453
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: "homepage"
+    view: "/views/articles.tpl"
+    content: "/content/articles.yaml"
+    fields:
+      - name: "node-sdk_updateItem_1733876716599"
+        label: "Titlexxxx"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "textarea"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "cover_image"
+        label: "Cover Image"
+        description: ""
+        datatype: "images"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          limit: "6"
+          list: true
+      - name: "content"
+        label: "Content"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "og_image"
+        label: "Meta Image"
+        description: "This field allows you to set an open graph image via the SEO tab. An Open Graph (OG) image is an image that appears on a social media post when a web page is shared."
+        datatype: "images"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: 1
+          list: false
+  - description: ""
+    label: "docs2"
+    name: "docs2"
+    sort: 461
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/docs2.tpl"
+    content: "/content/docs2.yaml"
+    fields:
+      - name: "title"
+        label: "title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "description"
+        label: "description"
+        description: ""
+        datatype: "textarea"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "body"
+        label: "body"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "docs"
+    name: "docs"
+    sort: 463
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/docs.tpl"
+    content: "/content/docs.yaml"
+    fields:
+      - name: "title"
+        label: "title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "description"
+        label: "description"
+        description: ""
+        datatype: "textarea"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "body"
+        label: "body"
+        description: ""
+        datatype: "markdown"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "doc1"
+    name: "doc1"
+    sort: 465
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: "docs"
+    view: "/views/doc1.tpl"
+    content: "/content/doc1.yaml"
+    fields:
+      - name: "title"
+        label: "title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "description"
+        label: "description"
+        description: ""
+        datatype: "textarea"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "body"
+        label: "body"
+        description: ""
+        datatype: "markdown"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "FooBar"
+    name: "foobar"
+    sort: 27
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: null
+    view: "/views/foobar.tpl"
+    content: "/content/foobar.yaml"
+    fields:
+      - name: "title"
+        label: "title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "FizzBuzz Model"
+    name: "fizzbuzz_model"
+    sort: 29
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: null
+    view: "/views/fizzbuzz_model.tpl"
+    content: "/content/fizzbuzz_model.yaml"
+    fields:
+      - name: "title"
+        label: "title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "superman"
+    name: "superman"
+    sort: 475
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/superman.tpl"
+    content: "/content/superman.yaml"
+    fields:
+      - name: "asdasd"
+        label: "asdasd"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "picx"
+        label: "picx"
+        description: ""
+        datatype: "images"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          limit: "10"
+          list: true
+      - name: "datetime"
+        label: "datetime"
+        description: ""
+        datatype: "datetime"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "required_datetime"
+        label: "required datetime"
+        description: ""
+        datatype: "datetime"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "asdasdfff"
+        label: "asdasd"
+        description: ""
+        datatype: "date"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "money_money"
+        label: "money money"
+        description: ""
+        datatype: "currency"
+        sort: 7
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+  - description: ""
+    label: "nar test"
+    name: "nar_test"
+    sort: 477
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/nar_test.tpl"
+    content: "/content/nar_test.yaml"
+    fields:
+      - name: "pic"
+        label: "pic"
+        description: ""
+        datatype: "images"
+        sort: 2
+        required: true
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+      - name: "name"
+        label: "name"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "test"
+        label: "test"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: false
+  - description: ""
+    label: "nar test 222"
+    name: "nar_test_222"
+    sort: 478
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/nar_test_222.tpl"
+    content: "/content/nar_test_222.yaml"
+    fields: []
+  - description: ""
+    label: "Model parenting itself"
+    name: "model_parenting_itself"
+    sort: 484
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "model_parenting_itself"
+    content: "/content/model_parenting_itself.yaml"
+    fields: []
+  - description: ""
+    label: "Sample Announcements"
+    name: "sample_announcements"
+    sort: 31
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: null
+    view: "/views/sample_announcements.tpl"
+    content: "/content/sample_announcements.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "textarea"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "feature_image"
+        label: "Feature Image"
+        description: ""
+        datatype: "images"
+        sort: 2
+        required: true
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+      - name: "cta_type"
+        label: "CTA Type"
+        description: ""
+        datatype: "dropdown"
+        sort: 3
+        required: true
+        relationship: null
+        settings:
+          list: true
+          options:
+            play_video: "Play Video"
+            schedule_training: "Schedule Training"
+      - name: "announcement_link"
+        label: "Announcement Link"
+        description: ""
+        datatype: "link"
+        sort: 4
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "training_link"
+        label: "Training Link"
+        description: ""
+        datatype: "link"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "video_link"
+        label: "Video Link"
+        description: ""
+        datatype: "link"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "start_date_and_time"
+        label: "Start Date and time"
+        description: ""
+        datatype: "datetime"
+        sort: 7
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "end_date_and_time"
+        label: "End Date and Time"
+        description: ""
+        datatype: "datetime"
+        sort: 8
+        required: true
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "bugtest"
+    name: "bugtest"
+    sort: 493
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/bugtest.tpl"
+    content: "/content/bugtest.yaml"
+    fields:
+      - name: "mytext"
+        label: "mytext"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "mywys"
+        label: "myWys"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "haha"
+        label: "haha"
+        description: ""
+        datatype: "date"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "testnumb"
+    name: "testnumb"
+    sort: 497
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/testnumb.tpl"
+    content: "/content/testnumb.yaml"
+    fields:
+      - name: "testnumb"
+        label: "testnumb"
+        description: ""
+        datatype: "number"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: "Do not delete"
+    label: "nar test schema"
+    name: "nar_test_schema"
+    sort: 502
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/nar_test_schema.tpl"
+    content: "/content/nar_test_schema.yaml"
+    fields:
+      - name: "testttt"
+        label: "testttt"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: true
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "money_bags"
+        label: "money bags"
+        description: ""
+        datatype: "currency"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "meme"
+        label: "meme"
+        description: ""
+        datatype: "dropdown"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+          options:
+            : ""
+      - name: "fave_doggo"
+        label: "Fave Doggo"
+        description: ""
+        datatype: "one_to_one"
+        sort: 4
+        required: false
+        relationship:
+          name: "dog_categories"
+          display: "size"
+        settings:
+          defaultValue: null
+          list: true
+      - name: "og_image"
+        label: "Meta Image"
+        description: "This field allows you to set an open graph image via the SEO tab. An Open Graph (OG) image is an image that appears on a social media post when a web page is shared."
+        datatype: "images"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: 1
+          list: false
+  - description: ""
+    label: "Zoshua Test Model"
+    name: "zoshua_test_modal"
+    sort: 511
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/zoshua_test_modal.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "reference_field"
+        label: "Reference Field"
+        description: ""
+        datatype: "one_to_many"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+  - description: ""
+    label: "Zoshua Reference Model"
+    name: "zoshua_reference_model"
+    sort: 512
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/zoshua_reference_model.yaml"
+    fields: []
+  - description: ""
+    label: "Dog Categories"
+    name: "dog_categories"
+    sort: 523
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/dog_categories.yaml"
+    fields:
+      - name: "name"
+        label: "name"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "size"
+        label: "size"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+  - description: ""
+    label: "nar test 2"
+    name: "nar_test_2"
+    sort: 527
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/nar_test_2.tpl"
+    content: "/content/nar_test_2.yaml"
+    fields:
+      - name: "aaa"
+        label: "aaa"
+        description: ""
+        datatype: "number"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "one_to_one"
+        label: "one to one"
+        description: ""
+        datatype: "one_to_one"
+        sort: 1
+        required: false
+        relationship:
+          name: "about_the_crew"
+          display: "name"
+        settings:
+          defaultValue: null
+          list: true
+      - name: "one_to_many"
+        label: "one to many"
+        description: ""
+        datatype: "one_to_many"
+        sort: 2
+        required: false
+        relationship:
+          name: "about_the_crew"
+          display: "name"
+        settings:
+          defaultValue: null
+          list: true
+      - name: "picture"
+        label: "picture"
+        description: ""
+        datatype: "images"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          fileExtensionsErrorMessage: "Only files with the following extensions are allowed: undefined"
+          limit: ""
+          list: true
+      - name: "wysiwyg_test"
+        label: "wysiwyg test"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+  - description: "Do not delete or modify fields, used in e2e tests"
+    label: "Metadata Test Fields"
+    name: "metadata_test_fields"
+    sort: 535
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/metadata_test_fields.tpl"
+    content: "/content/metadata_test_fields.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "textarea"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "tc_title"
+        label: "Twitter Title"
+        description: ""
+        datatype: "text"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "tc_description"
+        label: "Twitter Description"
+        description: ""
+        datatype: "textarea"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "tc_image"
+        label: "Twitter Image"
+        description: ""
+        datatype: "images"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: ""
+          list: true
+  - description: ""
+    label: "test relational fields"
+    name: "test_relational_fields"
+    sort: 610
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/test_relational_fields.tpl"
+    content: "/content/test_relational_fields.yaml"
+    fields:
+      - name: "1_to_1"
+        label: "1 to 1"
+        description: ""
+        datatype: "one_to_one"
+        sort: 0
+        required: false
+        relationship:
+          name: "articles"
+          display: "description"
+        settings:
+          defaultValue: null
+          list: true
+      - name: "1_to_many"
+        label: "1 to many"
+        description: ""
+        datatype: "one_to_many"
+        sort: 1
+        required: false
+        relationship:
+          name: "articles"
+          display: "description"
+        settings:
+          defaultValue: null
+          list: true
+  - description: ""
+    label: "hero test"
+    name: "hero_test"
+    sort: 612
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/hero_test.tpl"
+    content: "/content/hero_test.yaml"
+    fields:
+      - name: "title"
+        label: "title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "bg"
+        label: "bg"
+        description: ""
+        datatype: "images"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: ""
+          list: true
+  - description: ""
+    label: "Testimonial"
+    name: "testimonial"
+    sort: 614
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/testimonial.yaml"
+    fields: []
+  - description: "Schema Field Testing"
+    label: "Cypress Test - Schema Field"
+    name: "cypress_test___schema_field"
+    sort: 615
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/cypress_test___schema_field.tpl"
+    content: "/content/cypress_test___schema_field.yaml"
+    fields: []
+  - description: ""
+    label: "Test Block Do Not Delete"
+    name: "test_block_do_not_delete"
+    sort: 617
+    listed: true
+    parent: null
+    content: "/content/test_block_do_not_delete.yaml"
+    fields:
+      - name: "og_image"
+        label: "Meta Image"
+        description: "This field allows you to set an open graph image via the SEO tab. An Open Graph (OG) image is an image that appears on a social media post when a web page is shared."
+        datatype: "images"
+        sort: 9999
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: 1
+          list: false
+  - description: ""
+    label: "Stuart: Gallery"
+    name: "stuart__gallery"
+    sort: 619
+    listed: true
+    parent: "autolayout"
+    content: "/content/stuart__gallery.yaml"
+    fields:
+      - name: "og_image"
+        label: "Meta Image"
+        description: "This field allows you to set an open graph image via the SEO tab. An Open Graph (OG) image is an image that appears on a social media post when a web page is shared."
+        datatype: "images"
+        sort: 9999
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: 1
+          list: false
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "image"
+        label: "Image"
+        description: ""
+        datatype: "images"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: ""
+          list: true
+  - description: "d"
+    label: "Starter Block"
+    name: "starter_block"
+    sort: 621
+    listed: true
+    parent: null
+    content: "/content/starter_block.yaml"
+    fields:
+      - name: "og_image"
+        label: "Meta Image"
+        description: "This field allows you to set an open graph image via the SEO tab. An Open Graph (OG) image is an image that appears on a social media post when a web page is shared."
+        datatype: "images"
+        sort: 9999
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: 1
+          list: false
+      - name: "site_title"
+        label: "Site Title"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "bg"
+        label: "bg"
+        description: ""
+        datatype: "images"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: ""
+          list: true
+  - description: ""
+    label: "test242"
+    name: "test242"
+    sort: 625
+    listed: false
+    parent: null
+    content: "/content/test242.yaml"
+    fields:
+      - name: "og_image"
+        label: "Meta Image"
+        description: "This field allows you to set an open graph image via the SEO tab. An Open Graph (OG) image is an image that appears on a social media post when a web page is shared."
+        datatype: "images"
+        sort: 9999
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: 1
+          list: false
+  - description: ""
+    label: "test 1111"
+    name: "test_1111"
+    sort: 629
+    listed: false
+    parent: null
+    content: "/content/test_1111.yaml"
+    fields:
+      - name: "og_image"
+        label: "Meta Image"
+        description: "This field allows you to set an open graph image via the SEO tab. An Open Graph (OG) image is an image that appears on a social media post when a web page is shared."
+        datatype: "images"
+        sort: 9999
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: 1
+          list: false
+      - name: "text"
+        label: "text"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+  - description: ""
+    label: "Markdown Test"
+    name: "markdown_test"
+    sort: 630
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: null
+    view: "/views/markdown_test.tpl"
+    content: "/content/markdown_test.yaml"
+    fields:
+      - name: "md"
+        label: "MD"
+        description: ""
+        datatype: "markdown"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+  - description: ""
+    label: "new block test"
+    name: "new_block_test"
+    sort: 631
+    listed: false
+    parent: null
+    content: "/content/new_block_test.yaml"
+    fields:
+      - name: "og_image"
+        label: "Meta Image"
+        description: "This field allows you to set an open graph image via the SEO tab. An Open Graph (OG) image is an image that appears on a social media post when a web page is shared."
+        datatype: "images"
+        sort: 9999
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: 1
+          list: false
+  - description: ""
+    label: "freestyle test"
+    name: "freestyle_test"
+    sort: 634
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/freestyle_test.tpl"
+    content: "/content/freestyle_test.yaml"
+    fields:
+      - name: "test_field"
+        label: "test field"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+  - description: ""
+    label: "onemore"
+    name: "onemore"
+    sort: 636
+    listed: false
+    parent: null
+    content: "/content/onemore.yaml"
+    fields:
+      - name: "og_image"
+        label: "Meta Image"
+        description: "This field allows you to set an open graph image via the SEO tab. An Open Graph (OG) image is an image that appears on a social media post when a web page is shared."
+        datatype: "images"
+        sort: 9999
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: 1
+          list: false
+  - description: ""
+    label: "tttt"
+    name: "tttt"
+    sort: 637
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/tttt.tpl"
+    content: "/content/tttt.yaml"
+    fields:
+      - name: "test"
+        label: "test"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "test_image"
+        label: "Test Image"
+        description: ""
+        datatype: "images"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          defaultValue: "3-104b6f60-sd2fll"
+          fileExtensionsErrorMessage: "Only files with the following extensions are allowed: undefined"
+          limit: ""
+          list: true
+  - description: ""
+    label: "Loading Quotes"
+    name: "loading_quotes"
+    sort: 643
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/loading_quotes.yaml"
+    fields:
+      - name: "quote"
+        label: "Quote"
+        description: ""
+        datatype: "textarea"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "author"
+        label: "Author"
+        description: ""
+        datatype: "text"
+        sort: 2
+        required: true
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
   - description: "A hero with text and CTA buttons on the left and an image on the right"
     label: "Side by Side Hero Image"
     name: "side_by_side_hero_image"
