@@ -1,39 +1,67 @@
-<link href="https://block.codescandy.com/assets/css/theme.min.css" rel="stylesheet" />
-<section class="bg-light py-7">
-	<div class="container py-4">
-		<div class="col-xxl-8 offset-xxl-2 col-md-12">
-			<div class="row align-items-center">
-				<div class="col-md-4">
-					<div class="mb-5 mb-lg-0">
-						<img
-							src="{{this.person_image.getImage()}}"
-							alt="textmonial"
-							class="img-fluid rounded-3" />
-					</div>
-				</div>
-				<div class="col-md-8">
-					<div class="mb-4">
-						<p class="lead text-dark me-xl-6">
-							“{{this.quote}}”
-						</p>
-					</div>
-					<div class="d-flex justify-content-between">
-						<div>
-							<h5 class="mb-0">{{this.person_name}}</h5>
-							<small>{{this.position}} @{{this.company_name}}</small>
-							<br />
-							<small>{{this.job_title}}</small>
-						</div>
-						<div>
-							<figure>
-								<img
-									src="{{this.company_logo.getImage()}}"
-									alt="brand" />
-							</figure>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+<template id="testimonial-section-template">
+  <link href="https://block.codescandy.com/assets/css/theme.min.css" rel="stylesheet" />
+  <section class="bg-light py-7">
+    <div class="container py-4">
+      <div class="col-xxl-8 offset-xxl-2 col-md-12">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <div class="mb-5 mb-lg-0">
+              <img data-ref="personImage" alt="testimonial" class="img-fluid rounded-3" />
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="mb-4">
+              <p class="lead text-dark me-xl-6" data-ref="quote"></p>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div>
+                <h5 class="mb-0" data-ref="personName"></h5>
+                <small data-ref="position"></small><br />
+                <small data-ref="jobTitle"></small>
+              </div>
+              <div>
+                <figure>
+                  <img data-ref="companyLogo" alt="brand" />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
+  class TestimonialSection extends HTMLElement {
+    constructor() {
+      super();
+    }
+
+    connectedCallback() {
+      const template = document.getElementById('testimonial-section-template');
+      const content = template.content.cloneNode(true);
+
+      content.querySelector('[data-ref="personImage"]').src = this.getAttribute('person-image');
+      content.querySelector('[data-ref="quote"]').textContent = `“${this.getAttribute('quote')}”`;
+      content.querySelector('[data-ref="personName"]').textContent = this.getAttribute('person-name');
+      content.querySelector('[data-ref="position"]').textContent = `${this.getAttribute('position')} @${this.getAttribute('company-name')}`;
+      content.querySelector('[data-ref="jobTitle"]').textContent = this.getAttribute('job-title');
+      content.querySelector('[data-ref="companyLogo"]').src = this.getAttribute('company-logo');
+
+      this.appendChild(content);
+    }
+  }
+
+  customElements.define('testimonial-section', TestimonialSection);
+</script>
+
+<testimonial-section
+  person-image="{{this.person_image}}"
+  quote="{{this.quote}}"
+  person-name="{{this.person_name}}"
+  position="{{this.position}}"
+  company-name="{{this.company_name}}"
+  job-title="{{this.job_title}}"
+  company-logo="{{this.company_logo}}"
+></testimonial-section>
