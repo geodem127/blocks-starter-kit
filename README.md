@@ -1,1 +1,0 @@
-# blocks-starter-kit

@@ -1,1 +1,4 @@
-{"name":"blocks-starter-kit","schema":"schema.yaml"}
+{
+    "name": "starter-blocks",
+    "schema": "schema.yaml"
+}

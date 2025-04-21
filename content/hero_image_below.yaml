@@ -1,8 +1,8 @@
 
-  - id: "1d4d-4622-11f4"
+  - id: "e273-b71b-754c"
     web:
       metaDescription: ""
-      metaTitle: "0001"
+      metaTitle: "001"
       metaLinkText: null
       metaKeywords: null
       pathPart: null
@@ -13,7 +13,7 @@
       canonicalTagCustomValue: null
       parent: "/"
     meta:
-      sort: 655
+      sort: 668
       listed: true
       createdByUserZUID: "5-dc93cce5e1-zh4m49"
     data:
@@ -22,7 +22,7 @@
       cta_button_2_text: "Learn More"
       cta_button_2_url: "https://abcinsurance.com/learn-more"
       hero_image: "https://8-f48cf3a682-7fthvk.manager.zesty.io/images/sb__hero__image__1.png"
-      og_image: "https://storage.googleapis.com/zesty-prod-instance-screenshots/8xbq19z1-dev.webengine.zesty.io!-!block!hero_image_below_2.html!variant=7-dc9ddea492-03jmm0&version=2&_bypassError=true_1280_720.png"
+      og_image: "https://storage.googleapis.com/zesty-prod-instance-screenshots/8xbq19z1-dev.webengine.zesty.io!-!block!hero_image_below.html!variant=7-ccdef58b8f-tcmgxt&version=2&_bypassError=true_1280_720.png"
       sub_title: "Affordable plans tailored to your needs."
       title: "Secure Your Future with ABC Insurance"
       top_cta_button_text: "Get Started"

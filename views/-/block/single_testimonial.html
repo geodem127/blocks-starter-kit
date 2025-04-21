@@ -1,0 +1,39 @@
+<link href="https://block.codescandy.com/assets/css/theme.min.css" rel="stylesheet" />
+<section class="bg-light py-7">
+	<div class="container py-4">
+		<div class="col-xxl-8 offset-xxl-2 col-md-12">
+			<div class="row align-items-center">
+				<div class="col-md-4">
+					<div class="mb-5 mb-lg-0">
+						<img
+							src="{{this.person_image.getImage()}}"
+							alt="textmonial"
+							class="img-fluid rounded-3" />
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="mb-4">
+						<p class="lead text-dark me-xl-6">
+							“{{this.quote}}”
+						</p>
+					</div>
+					<div class="d-flex justify-content-between">
+						<div>
+							<h5 class="mb-0">{{this.person_name}}</h5>
+							<small>{{this.position}} @{{this.company_name}}</small>
+							<br />
+							<small>{{this.job_title}}</small>
+						</div>
+						<div>
+							<figure>
+								<img
+									src="{{this.company_logo.getImage()}}"
+									alt="brand" />
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
