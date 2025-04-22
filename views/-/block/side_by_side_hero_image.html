@@ -43,7 +43,7 @@
       const starNumber = this.getAttribute('star-rating-number') || '0';
       const starSubText = this.getAttribute('star-rating-sub-text') || '';
       const heroImage = this.getAttribute('hero-image') || '';
-      const ogImage = this.getAttribute('og-image') || '';
+
 
       this.innerHTML = `
         <section class="py-md-10 pt-5 bg-primary bg-opacity-10 position-relative">
@@ -99,7 +99,7 @@
 </script>
 
 <!-- Usage Example -->
-<side-by-side-hero-image
+<!-- <side-by-side-hero-image
   title="{{this.title}}"
   sub-title="{{this.sub_title}}"
   cta-button-1-text="{{this.cta_button_1_text}}"
@@ -112,4 +112,19 @@
   star-rating-sub-text="{{this.star_rating_sub_text}}"
   hero-image="{{this.hero_image.getImage()}}"
   og-image="{{this.og_image}}"
+></side-by-side-hero-image> -->
+
+<side-by-side-hero-image
+  title="Protect What Matters Most with ABC Insurance"
+  sub-title="Discover personalized insurance plans designed to secure your future and give you peace of mind."
+  cta-button-1-text="Get a Quote"
+  cta-button-1-url="https://abcinsurance.com/get-a-quote"
+  cta-button-2-text="Learn More"
+  cta-button-2-url="https://abcinsurance.com/learn-more"
+  button-container-sub-text="No hidden fees, no obligations."
+  star-rating-title="Customer Satisfaction"
+  star-rating-number="3.5"
+  star-rating-sub-text="Rated by 5,000+ happy customers."
+  hero-image="./_images/sb__hero__image__1.png?raw=true"
+
 ></side-by-side-hero-image>
